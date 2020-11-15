@@ -344,7 +344,7 @@ input::placeholder {
     height: 450px;
     left: 165px;
     top: 420px;
-    background-image: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605191999/Level%201%20learning%20path/slider_ksviki.png);
+    background-image: url(images/hotelslider/hotelslider.jpg);
     border-radius: 8px;
 }
 
@@ -1145,7 +1145,7 @@ input::placeholder {
     height: 90px;
     left: 320.5px;
     top: -45px;
-    background: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605120354/Level%201%20learning%20path/guest-review-pic_z44h7d.png);
+    background: url(images/guest-review/guest-review__slider-user-picture.jpg);
 }
 
 .guest-review__slider-quotation-mark-one {
@@ -1358,25 +1358,25 @@ input::placeholder {
 
 .other-activities__card--one {
     left: 0px;
-    background: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605120354/Level%201%20learning%20path/other-activities__card--one_m0ahgw.png);
+    background: url(images/other-activities/other-activities__card--one.jpg);
     opacity: 0.85;
 }
 
 .other-activities__card--two {
     left: 284px;
-    background: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605120354/Level%201%20learning%20path/other-activities__card--two_vizxra.png);
+    background: url(images/other-activities/other-activities__card--two.jpg);
     opacity: 0.85;
 }
 
 .other-activities__card--three {
     left: 570px;
-    background: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605120354/Level%201%20learning%20path/other-activities__card--three_vegoqu.png);
+    background: url(images/other-activities/other-activities__card--three.jpg);
     opacity: 0.85;
 }
 
 .other-activities__card--four {
     left: 855px;
-    background: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605120354/Level%201%20learning%20path/other-activities__card--four_x7mxes.png);
+    background: url(images/other-activities/other-activities__card--four.jpg);
     opacity: 0.85;
 }
 
