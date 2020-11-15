@@ -6,12 +6,17 @@
 
 /* Universal styles */
 
-html {
+body {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     background: #f5fafe;
 }
 
 ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 input::placeholder {
@@ -22,18 +27,32 @@ input::placeholder {
 /* Top navbar styles */
 
 .topnavbar {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
     height: 60px;
-    background: #f5fafe;
+}
+
+.topnavbar__items {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .topnavbar__item {
     display: inline-flex;
     flex-direction: row;
-    margin: 0 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 100px;
     font-family: Mulish;
     font-size: 10px;
     line-height: 13px;
     color: #333333;
+}
+
+.topnavbar__item--item-two-distance {
+    margin-left: 245px;
 }
 
 .topnavbar__text1 {
@@ -54,50 +73,37 @@ input::placeholder {
 .topnavbar__img1 {
     width: 18px;
     height: 18px;
+    margin-right: 20px;
 }
 
 .topnavbar__img2 {
     width: 18px;
     height: 18px;
+    margin-right: 20px;
 }
 
 
 /* Mid navbar styles */
 
 .midnavbar {
-    position: absolute;
     background-color: white;
-    width: 1440px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 120px;
-    left: 0px;
-    top: 60px;
 }
 
-.midnavbar__item {
-    position: absolute;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    line-height: 17px;
-    margin-top: 20px;
+.midnavbar__search-bar {
+    padding: 0px;
+    margin-left: 350px;
+    margin-top: -85px;
 }
 
-.midnavbar__logo {
-    width: 177px;
-    height: 24px;
-    margin-left: 123px;
-    margin-top: 10px;
-    line-height: 24px;
-}
-
-.midnavbar__item-searchbar {
-    left: 450px;
-}
-
-.midnavbar__input-field {
+.midnavbar__search-bar-input-field {
     background-color: #f5fafe;
     border: white;
-    width: 350px;
+    width: 285px;
     height: 40px;
     font-family: Mulish;
     font-size: 12px;
@@ -105,40 +111,51 @@ input::placeholder {
     line-height: 15.06px;
 }
 
-.midnavbar__search-button {
+.midnavbar__search-bar-button {
+    margin-left: -3px;
     background-color: #ec1f46;
     border-color: #EC1F46;
     width: 65px;
-    height: 40px;
+    height: 42px;
     border-radius: 0px 10px 10px 0px;
+}
+
+.midnavbar__item {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.midnavbar__logo {
+    margin-left: 7.8125vw;
+    width: 176px;
+    height: 19px;
 }
 
 .midnavbar__img1 {
     color: white;
     width: 16px;
     height: 16px;
-    left: 760px;
 }
 
 .midnavbar__img2 {
-    position: absolute;
     width: 34px;
     height: 34px;
-    left: 990px;
+    margin-right: -77vw;
 }
 
 .midnavbar__item-userbox {
-    position: absolute;
-    width: 150px;
+    width: 10.41%;
+    margin-left: 51.55vw;
     height: 40px;
-    left: 1100px;
 }
 
 .midnavbar__item-username {
     font-family: Mulish;
     width: 49px;
     height: 18px;
-    left: 1140px;
     line-height: 18px;
 }
 
@@ -151,7 +168,6 @@ input::placeholder {
 .midnavbar__img4 {
     width: 24px;
     height: 24px;
-    left: 1251px;
     margin-top: 12px;
     margin-left: 20px;
 }
