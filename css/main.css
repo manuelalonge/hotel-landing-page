@@ -8,7 +8,7 @@
 
 body {
     display: block;
-    width: 100%;
+    width: 100vw;
     margin-right: auto;
     margin-left: auto;
     background: #f5fafe;
@@ -16,7 +16,7 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 0vw;
 }
 
 input::placeholder {
@@ -27,16 +27,16 @@ input::placeholder {
 /* Top navbar styles */
 
 .topnavbar {
-    width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
+    padding: 0vw;
     height: 60px;
 }
 
 .topnavbar__items {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .topnavbar__item {
@@ -56,8 +56,8 @@ input::placeholder {
 }
 
 .topnavbar__item--item-three-distance {
-    margin-left: -19px;
-    margin-right: 0px;
+    margin-left: -0.19px;
+    margin-right: 0vw;
 }
 
 .topnavbar__text1 {
@@ -93,7 +93,7 @@ input::placeholder {
 .midnavbar {
     background-color: white;
     display: block;
-    width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     height: 120px;
@@ -109,7 +109,7 @@ input::placeholder {
     background-color: #f5fafe;
     border: white;
     width: 285px;
-    height: 40px;
+    height: 39.88px;
     font-family: Mulish;
     font-size: 12px;
     font-weight: bold;
@@ -121,7 +121,7 @@ input::placeholder {
     padding-top: -5px;
     background-color: #ec1f46;
     border-color: #EC1F46;
-    width: 65px;
+    width: 5.08vw;
     height: 42px;
     border-radius: 0px 10px 10px 0px;
 }
@@ -137,7 +137,7 @@ input::placeholder {
 .midnavbar__logo {
     margin-left: 100px;
     width: 176px;
-    height: 19px;
+    height: 24px;
 }
 
 .midnavbar__img1 {
@@ -148,34 +148,33 @@ input::placeholder {
 
 .midnavbar__img2 {
     width: 34px;
-    height: 34px;
+    height: 33.98px;
     margin-right: -1415px;
 }
 
 .midnavbar__item-userbox {
-    width: 10.41%;
+    width: 150px;
     margin-left: 765px;
     height: 40px;
 }
 
 .midnavbar__item-username {
     font-family: Mulish;
-    width: 49px;
-    height: 18px;
+    width: 48.9px;
     line-height: 18px;
 }
 
 .midnavbar__img3 {
     height: 40px;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 19.97px;
 }
 
 .midnavbar__img4 {
     width: 24px;
     height: 24px;
     margin-top: 12px;
-    margin-left: 20px;
+    margin-left: 19.97px;
 }
 
 
@@ -183,7 +182,7 @@ input::placeholder {
 
 .bottomnavbar {
     background-color: #0a223d;
-    width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: -15px;
@@ -198,7 +197,7 @@ input::placeholder {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 41.5px;
+    padding: 0px 41.5px;
     margin-top: 31px;
     color: #ffffff;
     text-transform: uppercase;
@@ -213,10 +212,10 @@ input::placeholder {
 /* Bread crumb styles */
 
 .breadcrumb {
-    width: 200px;
+    width: 15.62vw;
     height: 50px;
     padding: 10px 16px;
-    margin-left: 80px;
+    margin-left: 6.25vw;
     background: #f5fafe;
 }
 
@@ -239,7 +238,7 @@ input::placeholder {
 
 .hotelname {
     display: block;
-    width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
@@ -347,7 +346,7 @@ input::placeholder {
 /*Main styles*/
 
 .main {
-    width: 100%;
+    width: 100vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -466,11 +465,11 @@ input::placeholder {
 
 .bookingbox__button {
     display: block;
+    width: 295px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 26px;
     margin-bottom: 26px;
-    width: 295px;
     height: 40px;
     background: #ec1f46;
     border-color: #ec1f46;
@@ -504,14 +503,14 @@ input::placeholder {
 /* Cards menu styles */
 
 .cardsmenu {
-    width: 100%;
+    width: 100vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .cardsmenu__list {
-    width: 92%;
+    width: 92vw;
     margin-left: 69px;
     margin-top: 67.68px;
     height: 35.32px;
@@ -549,16 +548,15 @@ input::placeholder {
 /* Package summary section styles */
 
 .packagesummary {
-    width: 1110px;
+    width: 86.72vw;
     height: 842px;
 }
 
 .packagesummary__header {
-    position: absolute;
-    width: 240px;
+    width: 18.75vw;
     height: 30px;
-    left: 165px;
-    top: 1003px;
+    margin-left: 97px;
+    margin-top: 40px;
     font-family: Mulish;
     font-style: normal;
     font-weight: 700;
