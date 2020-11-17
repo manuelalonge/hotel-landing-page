@@ -52,11 +52,12 @@ input::placeholder {
 }
 
 .topnavbar__item--item-two-distance {
-    margin-left: 415px;
+    margin-left: 455px;
 }
 
 .topnavbar__item--item-three-distance {
-    margin-left: -20px;
+    margin-left: -19px;
+    margin-right: 0px;
 }
 
 .topnavbar__text1 {
@@ -100,7 +101,7 @@ input::placeholder {
 
 .midnavbar__search-bar {
     padding: 0px;
-    margin-left: 350px;
+    margin-left: 365px;
     margin-top: -85px;
 }
 
@@ -117,6 +118,7 @@ input::placeholder {
 
 .midnavbar__search-bar-button {
     margin-left: -3px;
+    padding-top: -5px;
     background-color: #ec1f46;
     border-color: #EC1F46;
     width: 65px;
@@ -147,12 +149,12 @@ input::placeholder {
 .midnavbar__img2 {
     width: 34px;
     height: 34px;
-    margin-right: -1335px;
+    margin-right: -1415px;
 }
 
 .midnavbar__item-userbox {
     width: 10.41%;
-    margin-left: 721px;
+    margin-left: 765px;
     height: 40px;
 }
 
@@ -196,7 +198,7 @@ input::placeholder {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 38px;
+    padding: 0 41.5px;
     margin-top: 31px;
     color: #ffffff;
     text-transform: uppercase;
@@ -287,7 +289,7 @@ input::placeholder {
     height: 45px;
     background: #ec1f46;
     border-radius: 3px;
-    margin-left: 1093px;
+    margin-left: 1136px;
     margin-top: -54.5px;
 }
 
@@ -308,7 +310,7 @@ input::placeholder {
     width: 74%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3px;
+    padding-top: 5px;
     height: 13px;
     font-size: 8px;
     line-height: 13px;
@@ -333,34 +335,42 @@ input::placeholder {
 /* Slider styles */
 
 .hotelslider {
-    position: absolute;
+    margin-left: 97px;
+    margin-top: 20px;
+    margin-right: 0px;
     width: 728px;
     height: 450px;
-    left: 165px;
-    top: 420px;
-    background-image: url(images/hotelslider/hotelslider.jpg);
     border-radius: 8px;
+}
+
+
+/*Main styles*/
+
+.main {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1650px;
 }
 
 
 /* Booking box styles */
 
 .bookingbox {
-    position: absolute;
+    margin-top: -465px;
+    margin-left: 850px;
     width: 350px;
     height: 210px;
-    left: 918px;
-    top: 420px;
     background: #0a223d;
     border-radius: 8px;
 }
 
 .bookingbox__price {
-    position: absolute;
     width: 50px;
     height: 59px;
-    left: -6px;
-    top: 10px;
+    padding-top: 29px;
+    margin-left: 29px;
 }
 
 .bookingbox__pricetext-one {
@@ -395,11 +405,11 @@ input::placeholder {
 }
 
 .bookingbox__personroom {
-    position: absolute;
+    margin-left: 241px;
+    margin-right: 29px;
+    margin-top: -70px;
     width: 80px;
     height: 40px;
-    left: 251px;
-    top: 28px;
 }
 
 .bookingbox__personroom-elem {
@@ -424,12 +434,12 @@ input::placeholder {
 }
 
 .bookingbox__callcenter {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
     width: 295px;
     height: 25px;
-    top: 91px;
-    left: 30px;
-    margin-left: 0px;
 }
 
 .bookingbox__callcenter-text {
@@ -455,11 +465,13 @@ input::placeholder {
 }
 
 .bookingbox__button {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 26px;
     width: 295px;
     height: 40px;
-    top: 151px;
-    left: 30px;
     background: #ec1f46;
     border-color: #ec1f46;
     border-radius: 4px;
@@ -478,10 +490,9 @@ input::placeholder {
 /* Map styles */
 
 .map {
-    position: absolute;
-    left: 918px;
-    top: 657px;
     border-radius: 8px;
+    margin-left: 850px;
+    margin-top: 25px;
 }
 
 .map__img {
@@ -493,23 +504,23 @@ input::placeholder {
 /* Cards menu styles */
 
 .cardsmenu {
-    width: 1185px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cardsmenu__list {
-    position: absolute;
-    width: 1185px;
-    margin: auto;
+    width: 92%;
+    margin-left: 69px;
+    margin-top: 67.68px;
     height: 35.32px;
-    left: 165px;
-    top: 927px;
-    margin-left: -66.85px;
 }
 
 .cardsmenu__list-item {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-weight: 700;
     padding: 0 29px;
 }
@@ -529,11 +540,9 @@ input::placeholder {
 }
 
 .cardsmenu__border {
-    position: absolute;
-    left: 165px;
     height: 4px;
-    top: 969px;
     width: 118px;
+    margin-left: 97px;
 }
 
 
