@@ -197,6 +197,10 @@ input::placeholder {
     justify-content: space-around;
     padding: 0px 41.5px;
     margin-top: 31px;
+}
+
+.bottomnavbar__link {
+    text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -204,6 +208,7 @@ input::placeholder {
     line-height: 18px;
     font-weight: bold;
     font-family: Mulish;
+    cursor: pointer;
 }
 
 
@@ -546,8 +551,11 @@ input::placeholder {
 /* Package summary section styles */
 
 .packagesummary {
-    width: 86.72vw;
+    display: block;
+    width: 100%;
     height: 842px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .packagesummary__header {
@@ -565,23 +573,20 @@ input::placeholder {
 }
 
 .packagesummary__card-one {
-    position: absolute;
-    top: 1082px;
     width: 538px;
     height: 200px;
-    left: 165px;
+    margin-left: 97px;
+    margin-top: 29px;
 }
 
 .packagesummary__card-two {
-    position: absolute;
-    top: 0px;
     width: 538px;
     height: 200px;
-    left: 570px;
+    margin-left: 564px;
+    margin-top: -254px;
 }
 
 .packagesummary__card-bluebox {
-    position: absolute;
     width: 538px;
     height: 50px;
     background: #0a223d;
@@ -595,11 +600,10 @@ input::placeholder {
 }
 
 .packagesummary__card-header {
-    position: absolute;
     width: 130px;
     height: 18px;
-    left: 21px;
-    top: 7px;
+    margin-left: 24px;
+    padding-top: 16px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -609,20 +613,33 @@ input::placeholder {
 }
 
 .packagesummary__list {
-    margin-top: 40px;
+    width: 239.5px;
+    height: 96px;
+    margin-left: 65px;
+    margin-top: 17px;
 }
 
-.packagesummary__list--list-two-shift {
-    margin-left: 270px;
-    margin-top: -130px;
+.packagesummary__list-two {
+    width: 239.5px;
+    height: 96px;
+    margin-left: 370px;
+    margin-top: -110px;
+}
+
+
+/*To be looked into later (url not working properly)*/
+
+.packagesummary__item::before {
+    content: url(images/packagesummary/packagesummary__item-icon.svg);
 }
 
 .packagesummary__item {
-    width: 254px;
+    width: 170px;
     font-family: Mulish;
     font-size: 12px;
     line-height: 15px;
     margin-left: -50px;
+    margin-right: 0px;
 }
 
 .packagesummary__item-text {
@@ -658,10 +675,9 @@ input::placeholder {
 }
 
 .packagesummary__card-three-header {
-    position: absolute;
     height: 18px;
-    left: 21px;
-    top: 7px;
+    padding-top: 17px;
+    margin-left: 21px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -672,10 +688,9 @@ input::placeholder {
 }
 
 .packagesummary__card-three {
-    position: absolute;
-    top: 232px;
-    width: 1110px;
+    width: 92%;
     height: 200px;
+    margin-top: 70px;
 }
 
 .packagesummary__card-three-bluebox {
@@ -695,8 +710,6 @@ input::placeholder {
 .packagesummary__line {
     width: 1048px;
     height: 0px;
-    top: 370px;
-    position: absolute;
     border: 1px dashed #e0e0e0;
 }
 
@@ -704,50 +717,36 @@ input::placeholder {
 /* Header + list styles = Groups */
 
 .packagesummary__card-three-group-one {
-    position: absolute;
     width: 258px;
     height: 239px;
 }
 
 .packagesummary__card-three-group-two {
-    position: absolute;
     width: 284px;
     height: 238px;
-    left: 380px;
 }
 
 .packagesummary__card-three-group-three {
-    position: absolute;
     width: 284px;
     height: 238px;
-    left: 740px;
 }
 
 .packagesummary__card-three-group-four {
-    position: absolute;
     width: 160px;
     height: 90px;
-    top: 400px;
 }
 
 .packagesummary__card-three-group-five {
-    position: absolute;
     width: 200px;
     height: 90px;
-    left: 380px;
-    top: 400px;
 }
 
 .packagesummary__card-three-group-six {
-    position: absolute;
     width: 284px;
     height: 238px;
-    left: 740px;
-    top: 400px;
 }
 
 .packagesummary__card-three-list-header {
-    position: absolute;
     font-family: Mulish;
     font-style: normal;
     text-align: left;
