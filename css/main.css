@@ -616,7 +616,7 @@ input::placeholder {
     width: 239.5px;
     height: 96px;
     margin-left: 65px;
-    margin-top: 17px;
+    margin-top: 10px;
 }
 
 .packagesummary__list-two {
@@ -626,52 +626,41 @@ input::placeholder {
     margin-top: -110px;
 }
 
-
-/*To be looked into later (url not working properly)*/
-
-.packagesummary__item::before {
-    content: url(images/packagesummary/packagesummary__item-icon.svg);
+.packagesummary__item-text::before {
+    content: url(../images/packagesummary/packagesummary__item-icon.jpg);
+    margin-right: 20px;
 }
 
 .packagesummary__item {
-    width: 170px;
+    width: 250px;
     font-family: Mulish;
     font-size: 12px;
     line-height: 15px;
-    margin-left: -50px;
-    margin-right: 0px;
+    margin-left: -70px;
 }
 
 .packagesummary__item-text {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .packagesummary__item-text-deadline {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 38px;
 }
 
-.packagesummary__item-icon {
-    width: 12px;
-    height: 12px;
-    padding: 0 12px;
+.packagesummary__item-text-calendar::before {
+    content: url(../images/packagesummary/packagesummary__item-icon-calendar.jpg);
+    margin-right: 20px;
 }
 
-.packagesummary__item-icon-calendar {
-    width: 13px;
-    height: 13px;
-    margin-left: -60px;
-    padding: 0 12px;
-}
-
-.packagesummary__item--icon-calendar-shift {
-    margin-left: 350px;
-    margin-top: -125px;
-    width: 250px;
+.packagesummary__item-text-calendar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .packagesummary__card-three-header {
@@ -711,6 +700,8 @@ input::placeholder {
     width: 1048px;
     height: 0px;
     border: 1px dashed #e0e0e0;
+    margin-top: 85px;
+    margin-bottom: -15px;
 }
 
 
@@ -719,31 +710,42 @@ input::placeholder {
 .packagesummary__card-three-group-one {
     width: 258px;
     height: 239px;
+    margin-left: 15px;
 }
 
 .packagesummary__card-three-group-two {
     width: 284px;
     height: 238px;
+    margin-top: -251px;
+    margin-left: 380px;
 }
 
 .packagesummary__card-three-group-three {
     width: 284px;
     height: 238px;
+    margin-top: -251px;
+    margin-left: 760px;
 }
 
 .packagesummary__card-three-group-four {
     width: 160px;
     height: 90px;
+    margin-left: 15px;
+    margin-top: 40px;
 }
 
 .packagesummary__card-three-group-five {
     width: 200px;
     height: 90px;
+    margin-top: -104px;
+    margin-left: 380px;
 }
 
 .packagesummary__card-three-group-six {
     width: 284px;
     height: 238px;
+    margin-top: -104px;
+    margin-left: 760px;
 }
 
 .packagesummary__card-three-list-header {
@@ -752,14 +754,14 @@ input::placeholder {
     text-align: left;
     font-weight: 600;
     font-size: 13px;
+    width: 240px;
+    height: 16px;
     line-height: 16px;
     color: #ec1f46;
-    margin-left: 18px;
 }
 
 .packagesummary__card-three-list {
-    margin-top: 50px;
-    margin-left: -38px;
+    margin-top: 20px;
 }
 
 .packagesummary__card-three-list-item {
@@ -1143,7 +1145,7 @@ input::placeholder {
     height: 90px;
     left: 320.5px;
     top: -45px;
-    background: url(images/guest-review/guest-review__slider-user-picture.jpg);
+    background: url(./images/guest-review/guest-review__slider-user-picture.jpg);
 }
 
 .guest-review__slider-quotation-mark-one {
