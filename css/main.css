@@ -343,6 +343,7 @@ input::placeholder {
     width: 728px;
     height: 450px;
     border-radius: 8px;
+    background: url(../images/hotelslider/hotelslider.jpg);
 }
 
 
@@ -613,14 +614,14 @@ input::placeholder {
 }
 
 .packagesummary__list {
-    width: 239.5px;
+    width: 220px;
     height: 96px;
     margin-left: 65px;
     margin-top: 10px;
 }
 
 .packagesummary__list-two {
-    width: 239.5px;
+    width: 220px;
     height: 96px;
     margin-left: 370px;
     margin-top: -110px;
@@ -632,7 +633,7 @@ input::placeholder {
 }
 
 .packagesummary__item {
-    width: 250px;
+    width: 220px;
     font-family: Mulish;
     font-size: 12px;
     line-height: 15px;
@@ -677,7 +678,7 @@ input::placeholder {
 }
 
 .packagesummary__card-three {
-    width: 92%;
+    width: 90%;
     height: 200px;
     margin-top: 70px;
 }
@@ -1239,6 +1240,7 @@ input::placeholder {
     left: 0px;
     top: 4000px;
     background: rgba(10, 34, 61, 0.8);
+    /*19/11 - Not sure it is correct*/
 }
 
 .newsletter__background {
