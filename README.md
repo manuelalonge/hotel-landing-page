@@ -10,4 +10,4 @@ Methodology used: Agile.
 
 Aim of the project: to develop basic front-end programming skills in a simple landing page.
 
-Deployed on Netlify at link --> 
+Deployed on Netlify at link --> https://hotel-landing-page-manuelalonge.netlify.app/

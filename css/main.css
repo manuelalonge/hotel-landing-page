@@ -1358,25 +1358,25 @@ input::placeholder {
 
 .other-activities__card--one {
     left: 0px;
-    background: url(images/other-activities/other-activities__card--one.jpg);
+    background: url(../images/other-activities/other-activities__card--one.jpg);
     opacity: 0.85;
 }
 
 .other-activities__card--two {
     left: 284px;
-    background: url(images/other-activities/other-activities__card--two.jpg);
+    background: url(../images/other-activities/other-activities__card--two.jpg);
     opacity: 0.85;
 }
 
 .other-activities__card--three {
     left: 570px;
-    background: url(images/other-activities/other-activities__card--three.jpg);
+    background: url(../images/other-activities/other-activities__card--three.jpg);
     opacity: 0.85;
 }
 
 .other-activities__card--four {
     left: 855px;
-    background: url(images/other-activities/other-activities__card--four.jpg);
+    background: url(../images/other-activities/other-activities__card--four.jpg);
     opacity: 0.85;
 }
 
@@ -1684,5 +1684,5 @@ input::placeholder {
     width: 136px;
     height: 22px;
     left: 560px;
-    background: url(https://res.cloudinary.com/ddnnj5wsx/image/upload/v1605120353/Level%201%20learning%20path/payments-methods-icons_vmgznx.png);
+    background: url();
 }
