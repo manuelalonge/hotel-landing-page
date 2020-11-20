@@ -134,7 +134,7 @@ input::placeholder {
 
 .midnavbar__logo {
     margin-left: 100px;
-    width: 176px;
+    width: 177px;
     height: 24px;
 }
 
@@ -343,7 +343,7 @@ input::placeholder {
     width: 728px;
     height: 450px;
     border-radius: 8px;
-    background: url(../images/hotelslider/hotelslider.jpg);
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(../images/hotelslider/hotelslider.jpg);
 }
 
 
@@ -421,7 +421,7 @@ input::placeholder {
     justify-content: space-around;
 }
 
-.bookingbox__personroom-icon {
+.bookingbox__personroom-img {
     width: 14px;
     height: 14px;
 }
@@ -457,7 +457,14 @@ input::placeholder {
 }
 
 .bookingbox__callcenter-text--text-two-dist {
-    margin-left: 105px;
+    margin-left: 100px;
+}
+
+.bookingbox__callcenter-text--text-two-dist::before {
+    content: url(../images/bookingbox/bookingbox__callcenter-phone.svg);
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
 }
 
 .bookingbox__callcenter-phone {
@@ -778,19 +785,19 @@ input::placeholder {
 /* Other Packages */
 
 .other-packages {
-    position: absolute;
-    width: 1440px;
-    height: 1250px;
-    left: 0px;
-    top: 1910px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .other-packages__header {
-    position: absolute;
+    display: block;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-right: auto;
     width: 327px;
     height: 45px;
-    left: 556px;
-    top: 145px;
     font-family: Mulish;
     font-style: normal;
     font-weight: 700;
@@ -802,59 +809,56 @@ input::placeholder {
 }
 
 .other-packages__cards {
-    height: 1205px;
     width: 1110px;
-    margin-top: -45px;
+    height: 1205px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
 }
 
 .other-packages__trip-advisor-card-one {
-    position: absolute;
     width: 730px;
     height: 500px;
-    margin-top: 360px;
-    margin-left: 159px;
+    margin-top: 18px;
+    margin-left: 0px;
 }
 
 .other-packages__trip-advisor-card-two {
-    position: absolute;
+    margin-left: 760px;
+    margin-top: -500px;
     width: 350px;
     height: 500px;
-    margin-top: 360px;
-    margin-left: 925px;
 }
 
 .other-packages__trip-advisor-card-three {
-    position: absolute;
     width: 350px;
     height: 500px;
-    margin-top: 909px;
-    margin-left: 159px;
 }
 
 .other-packages__trip-advisor-card-four {
-    position: absolute;
     width: 350px;
     height: 500px;
-    margin-top: 909px;
-    margin-left: 540px;
 }
 
 .other-packages__trip-advisor-card-five {
-    position: absolute;
     width: 350px;
     height: 500px;
-    margin-top: 909px;
-    margin-left: 925px;
+}
+
+.other-packages__card-big-picture {
+    background: url(../images/other-packages/other-packages__trip-advisor-card-one.jpg), #007ADF;
+    width: 366px;
+    height: 500px;
 }
 
 .other-packages__card-big-info-box {
-    position: absolute;
     width: 364px;
     height: 500px;
-    left: 366px;
-    top: -0.005px;
     background: #0A223D;
     border-radius: 0px 8px 8px 0px;
+    margin-top: -500px;
+    margin-left: 366px;
 }
 
 .other-packages__stars {
@@ -863,11 +867,9 @@ input::placeholder {
 }
 
 .other-packages__card-big-info-box-header {
-    position: absolute;
     width: 149px;
     height: 23px;
     margin-left: 55px;
-    top: 50px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -877,11 +879,10 @@ input::placeholder {
 }
 
 .other-packages__card-big-info-box-text {
-    position: absolute;
     width: 299px;
     height: 165px;
     margin-left: 55px;
-    margin-top: 65px;
+    margin-top: 20px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -892,27 +893,20 @@ input::placeholder {
 }
 
 .other-packages__card-big-personroom {
-    position: absolute;
     width: 203px;
     height: 67px;
     margin-left: 55px;
-    top: 318px;
 }
 
 .other-packages__personroom-elem {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-.other-packages__personroom-elem-icon {
-    width: 14px;
-    height: 14px;
+    margin-top: -6px;
 }
 
 .other-packages__personroom-elem-text {
-    position: absolute;
-    width: 175px;
+    width: 200px;
     height: 15px;
     font-family: Mulish;
     font-style: normal;
@@ -922,71 +916,74 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.other-packages__personroom-elem-text--one {
-    left: 32px;
-    top: -10px;
+.other-packages__personroom-elem-text--one::before {
+    content: url(../images/other-packages/other-packages__personroom-elem-map-pin.svg);
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
 }
 
-.other-packages__personroom-elem-text--two {
-    left: 32px;
-    top: 20px;
-}
-
-.other-packages__personroom-elem-icon--two {
-    margin-top: 17px;
+.other-packages__personroom-elem-text--two::before {
+    content: url(../images/common-icons/personroom-icon-user.svg);
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
 }
 
 .other-packages__personroom-elem-text--three {
-    left: 32px;
-    top: 50px;
+    margin-top: -18px;
+    margin-left: 27px;
 }
 
-.other-packages__personroom-elem-icon--three {
-    width: 19px;
-    height: 19px;
+.other-packages__personroom-home-icon {
+    width: 18px;
+    height: 18px;
     margin-top: 18px;
 }
 
 .other-packages__card-big-flash-offer-box {
-    position: absolute;
+    margin-bottom: -50px;
+    position: relative;
     width: 95px;
     height: 30px;
     background: #EC1F46;
     border-radius: 0px 4px 4px 0px;
-    top: 20px;
 }
 
 .other-packages__card-big-flash-offer-text {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
     width: 72px;
     height: 15px;
-    top: -5px;
-    left: 8.5px;
     font-family: Mulish;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
+    text-align: center;
     color: #FFFFFF;
 }
 
 .other-packages__card-big-button {
-    position: absolute;
     width: 120px;
     height: 40px;
     background: #EC1F46;
     border-color: #ec1f46;
     border-radius: 4px;
-    left: 225px;
-    top: 440px;
+    margin-left: 230px;
+    margin-top: 70px;
 }
 
 .other-packages__book-now-button-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
     width: 67px;
     height: 19px;
     text-align: center;
-    margin-left: 19px;
-    margin-top: 8px;
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
@@ -996,9 +993,8 @@ input::placeholder {
 }
 
 .other-packages__card-big-prices {
-    position: absolute;
     margin-left: 55px;
-    top: 415px;
+    margin-top: -60px;
 }
 
 .other-packages__old-price {
@@ -1025,16 +1021,39 @@ input::placeholder {
     color: #FFFFFF;
 }
 
+.other-packages__card-two-picture {
+    background: url(../images/other-packages/other-packages__trip-advisor-card-two.jpg), #007ADF;
+    width: 350px;
+    height: 250px;
+    margin-bottom: -20px;
+}
+
+.other-packages__card-three-picture {
+    background: url(../images/other-packages/other-packages__trip-advisor-card-three.jpg);
+}
+
+.other-packages__card-four-picture {
+    background: url(../images/other-packages/other-packages__trip-advisor-card-four.jpg);
+}
+
+.other-packages__card-five-picture {
+    background: url(../images/other-packages/other-packages__trip-advisor-card-five.jpg);
+}
+
 .other-packages__card-small-flash-offer-box {
-    position: absolute;
     width: 60px;
     height: 18px;
+    margin-bottom: -40px;
     background: #EC1F46;
     border-radius: 0px 4px 4px 0px;
-    top: 20px;
+    position: relative;
 }
 
 .other-packages__card-small-flash-offer-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
     width: 42px;
     height: 10px;
     font-family: Mulish;
@@ -1048,20 +1067,17 @@ input::placeholder {
 }
 
 .other-packages__card-small-info-box {
-    position: absolute;
     width: 350px;
     height: 250px;
-    top: 250px;
     background: #0A223D;
     border-radius: 0px 0px 8px 8px;
 }
 
 .other-packages__card-small-info-box-header {
-    position: absolute;
     width: 138px;
     height: 23px;
-    left: 32px;
-    top: 10px;
+    padding-top: 30px;
+    margin-left: 32px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1071,28 +1087,26 @@ input::placeholder {
 }
 
 .other-packages__card-small-personroom {
-    position: absolute;
     width: 203px;
     height: 67px;
     margin-left: 30px;
-    top: 72.5px;
+    margin-top: -5px;
 }
 
 .other-packages__card-small-prices {
-    position: absolute;
     margin-left: 32px;
-    top: 160px;
+    margin-top: -60px;
 }
 
 .other-packages__card-small-button {
-    position: absolute;
     width: 120px;
     height: 40px;
     background: #EC1F46;
     border-color: #ec1f46;
     border-radius: 4px;
-    top: 195px;
-    left: 210px;
+    margin-left: 209px;
+    margin-top: 60px;
+    position: relative;
 }
 
 
