@@ -441,7 +441,7 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 24px;
+    margin-top: 18px;
     width: 295px;
     height: 25px;
 }
@@ -480,7 +480,7 @@ input::placeholder {
     width: 295px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 26px;
+    margin-top: 32px;
     margin-bottom: 26px;
     height: 40px;
     background: #ec1f46;
@@ -1277,6 +1277,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 260px;
+    margin-top: 30px;
 }
 
 .newsletter__background {
@@ -1355,21 +1356,21 @@ input::placeholder {
 /* Other activities styles */
 
 .other-activities {
-    position: absolute;
-    width: 1440px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
-    left: 0px;
-    top: 4300px;
 }
 
 .other-activities__header {
-    position: absolute;
+    margin-top: 60px;
+    margin-left: 90px;
     width: 220px;
     height: 30px;
-    left: 165px;
     font-family: Mulish;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     text-transform: uppercase;
@@ -1377,53 +1378,44 @@ input::placeholder {
 }
 
 .other-activities__cards {
-    position: absolute;
     width: 1110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 255px;
-    left: 165px;
-    top: 130px;
-    bottom: 98px;
+    margin-top: 57px;
 }
 
 .other-activities__card {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    position: absolute;
+    margin-left: 24px;
     width: 255px;
     height: 255px;
+    border-radius: 6px;
 }
 
 .other-activities__card--one {
-    left: 0px;
-    background: url(../images/other-activities/other-activities__card--one.jpg);
-    opacity: 0.85;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--one.jpg);
+    margin-left: -2px;
 }
 
 .other-activities__card--two {
-    left: 284px;
-    background: url(../images/other-activities/other-activities__card--two.jpg);
-    opacity: 0.85;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--two.jpg);
 }
 
 .other-activities__card--three {
-    left: 570px;
-    background: url(../images/other-activities/other-activities__card--three.jpg);
-    opacity: 0.85;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--three.jpg);
 }
 
 .other-activities__card--four {
-    left: 855px;
-    background: url(../images/other-activities/other-activities__card--four.jpg);
-    opacity: 0.85;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--four.jpg);
 }
 
 .other-activities__text {
-    position: absolute;
     width: 145px;
     height: 40px;
-    left: 21px;
-    top: 125px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1432,12 +1424,15 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.other-activities__button {
-    position: absolute;
+.other-activities__button-wrapper {
     width: 100px;
     height: 30px;
-    left: 21px;
-    top: 210px;
+    padding-right: 220px;
+}
+
+.other-activities__button {
+    width: 100px;
+    height: 30px;
     background: #EC1F46;
     border-color: #ec1f46;
     border-radius: 4px;
@@ -1447,13 +1442,13 @@ input::placeholder {
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
+    margin-top: 201px;
 }
 
 
 /* Footer main styles */
 
 .footer {
-    position: absolute;
     width: 1440px;
     height: 900px;
     left: 0px;
@@ -1465,25 +1460,20 @@ input::placeholder {
 /* Footer top styles */
 
 .footer__top {
-    position: absolute;
     width: 1110px;
     height: 223px;
-    left: 165px;
     margin-top: 108px;
 }
 
 .footer__top-logo {
-    position: absolute;
     width: 153px;
     height: 175px;
     margin-top: 31px;
 }
 
 .footer__top-group {
-    position: absolute;
     width: 260px;
     height: 180px;
-    left: 283px;
     margin-top: -18px;
     font-family: Mulish;
     font-style: normal;
@@ -1491,22 +1481,14 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.footer__top-group--one {
-    left: 283px;
-}
+.footer__top-group--one {}
 
-.footer__top-group--two {
-    left: 570px;
-}
+.footer__top-group--two {}
 
-.footer__top-group--three {
-    left: 912px;
-}
+.footer__top-group--three {}
 
 .footer__top-group--four {
     width: 293px;
-    left: 570px;
-    top: 200px;
 }
 
 .footer__top-list-header {
@@ -1539,7 +1521,6 @@ input::placeholder {
 /* Footer contacts styles */
 
 .footer__contacts {
-    position: absolute;
     width: 1113px;
     height: 317px;
     left: 161px;
@@ -1600,11 +1581,8 @@ input::placeholder {
 }
 
 .footer__contacts-form {
-    position: absolute;
     width: 539px;
     height: 317px;
-    left: 570px;
-    top: 0px;
 }
 
 .footer__contacts-input-fields {
@@ -1613,7 +1591,6 @@ input::placeholder {
 }
 
 .footer__contacts-input-field-one {
-    position: absolute;
     font-family: Mulish;
     width: 255px;
     height: 50px;
@@ -1622,7 +1599,6 @@ input::placeholder {
 }
 
 .footer__contacts-input-field-two {
-    position: absolute;
     font-family: Mulish;
     width: 255px;
     height: 50px;
@@ -1632,7 +1608,6 @@ input::placeholder {
 }
 
 .footer__contacts-input-field-three {
-    position: absolute;
     font-family: Mulish;
     width: 530px;
     height: 123px;
@@ -1642,10 +1617,8 @@ input::placeholder {
 }
 
 .footer__contacts-send-button {
-    position: absolute;
     width: 160px;
     height: 50px;
-    top: 265px;
     background: #EC1F46;
     border-color: #EC1F46;
     border-radius: 4px;
@@ -1658,11 +1631,8 @@ input::placeholder {
 }
 
 .footer__contacts-required-fields {
-    position: absolute;
     width: 97px;
     height: 15px;
-    top: 265px;
-    left: 445px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1675,15 +1645,12 @@ input::placeholder {
 /* Footer bottom styles */
 
 .footer__bottom {
-    position: absolute;
     width: 696px;
     height: 22px;
-    left: 578px;
     margin-top: 832px;
 }
 
 .footer__bottom-disclaimer {
-    position: absolute;
     width: 353px;
     height: 15px;
 }
@@ -1718,7 +1685,6 @@ input::placeholder {
 }
 
 .footer__bottom-payment-methods {
-    position: absolute;
     width: 136px;
     height: 22px;
     left: 560px;
