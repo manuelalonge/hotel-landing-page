@@ -112,6 +112,7 @@ input::placeholder {
     font-size: 12px;
     font-weight: bold;
     line-height: 15.06px;
+    float: left;
 }
 
 .midnavbar__search-bar-button {
@@ -343,7 +344,7 @@ input::placeholder {
     width: 728px;
     height: 450px;
     border-radius: 8px;
-    background: linear-gradient(180deg, rgba(6, 11, 66, 0.2) 0%, rgba(10, 34, 61, 1) 100%), url(../images/hotelslider/hotelslider.jpg);
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(../images/hotelslider/hotelslider.jpg);
 }
 
 
@@ -1283,7 +1284,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 260px;
-    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(../images/newsletter/newsletter-background.jpg);
+    background: linear-gradient(180deg, rgba(10, 34, 61, 0.8) 20%, rgba(10, 34, 61, 0.8) 80%), url(../images/newsletter/newsletter-background.jpg);
 }
 
 .newsletter__call-to-action {
