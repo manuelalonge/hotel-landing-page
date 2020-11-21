@@ -814,7 +814,7 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    margin-top: 100px;
 }
 
 .other-packages__trip-advisor-card-one {
@@ -832,16 +832,21 @@ input::placeholder {
 }
 
 .other-packages__trip-advisor-card-three {
+    margin-top: 32px;
     width: 350px;
     height: 500px;
 }
 
 .other-packages__trip-advisor-card-four {
+    margin-left: 380px;
+    margin-top: -504px;
     width: 350px;
     height: 500px;
 }
 
 .other-packages__trip-advisor-card-five {
+    margin-left: 760px;
+    margin-top: -504px;
     width: 350px;
     height: 500px;
 }
@@ -973,7 +978,7 @@ input::placeholder {
     border-color: #ec1f46;
     border-radius: 4px;
     margin-left: 230px;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .other-packages__book-now-button-text {
@@ -994,7 +999,7 @@ input::placeholder {
 
 .other-packages__card-big-prices {
     margin-left: 55px;
-    margin-top: -60px;
+    margin-top: -65px;
 }
 
 .other-packages__old-price {
@@ -1030,14 +1035,23 @@ input::placeholder {
 
 .other-packages__card-three-picture {
     background: url(../images/other-packages/other-packages__trip-advisor-card-three.jpg);
+    width: 350px;
+    height: 250px;
+    margin-bottom: -20px;
 }
 
 .other-packages__card-four-picture {
     background: url(../images/other-packages/other-packages__trip-advisor-card-four.jpg);
+    width: 350px;
+    height: 250px;
+    margin-bottom: -20px;
 }
 
 .other-packages__card-five-picture {
     background: url(../images/other-packages/other-packages__trip-advisor-card-five.jpg);
+    width: 350px;
+    height: 250px;
+    margin-bottom: -20px;
 }
 
 .other-packages__card-small-flash-offer-box {
@@ -1095,7 +1109,7 @@ input::placeholder {
 
 .other-packages__card-small-prices {
     margin-left: 32px;
-    margin-top: -60px;
+    margin-top: -65px;
 }
 
 .other-packages__card-small-button {
@@ -1105,27 +1119,26 @@ input::placeholder {
     border-color: #ec1f46;
     border-radius: 4px;
     margin-left: 209px;
-    margin-top: 60px;
-    position: relative;
+    margin-top: 65px;
 }
 
 
 /* Guest Review Styles */
 
 .guest-review {
-    position: absolute;
-    width: 1440px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 550px;
-    left: 0px;
-    top: 3160px;
 }
 
 .guest-review__header {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 606px;
     height: 45px;
-    left: 400px;
-    top: 200px;
     font-family: Mulish;
     font-style: normal;
     font-weight: 700;
@@ -1137,51 +1150,57 @@ input::placeholder {
 }
 
 .guest-review__slider-wrapper {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 118px;
     width: 731px;
     height: 327px;
-    left: 177.25px;
-    top: 230px;
 }
 
 .guest-review__slider-white-card {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 731px;
     height: 280px;
-    top: 230px;
-    left: 177.25px;
     background: #FFFFFF;
     border-radius: 8px;
 }
 
 .guest-review__slider-user-picture {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
     width: 90px;
     height: 90px;
-    left: 320.5px;
-    top: -45px;
-    background: url(./images/guest-review/guest-review__slider-user-picture.jpg);
+    background: url(../images/guest-review/guest-review__slider-user-picture.jpg);
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
 }
 
 .guest-review__slider-quotation-mark-one {
-    position: absolute;
-    left: 9.3%;
-    top: 4%;
+    margin-left: 80px;
+    margin-top: 18px;
 }
 
 .guest-review__slider-quotation-mark-two {
-    position: absolute;
-    left: 77.45%;
-    top: 45%;
-    z-index: 1;
+    margin-left: 600px;
+    margin-bottom: -60px;
+}
+
+.guest-review__review-wrapper {
+    margin-top: -298px;
 }
 
 .guest-review__slider-user-name {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 63px;
     height: 15px;
-    left: 335px;
-    top: 48px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1191,34 +1210,38 @@ input::placeholder {
 }
 
 .guest-review__slider-user-stay {
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 127px;
     height: 13px;
-    left: 310px;
-    top: 75px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
     color: #000000;
+    z-index: 1;
+    position: relative;
 }
 
 .guest-review__stars {
-    position: absolute;
     width: 48px;
     height: 8px;
-    left: 340px;
-    top: 105px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
 }
 
 .guest-review__actual-review {
-    position: absolute;
-    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
     width: 507px;
     height: 114px;
-    left: 97px;
-    top: 125px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -1226,22 +1249,22 @@ input::placeholder {
     line-height: 160%;
     text-align: justify;
     color: #333333;
+    z-index: 1;
+    position: relative;
 }
 
 .guest-review__chevron-left {
-    position: absolute;
     width: 30px;
     height: 30px;
-    top: 320px;
-    left: -20px;
+    margin-left: 85px;
+    margin-bottom: -320px;
 }
 
 .guest-review__chevron-right {
-    position: absolute;
     width: 30px;
     height: 30px;
-    top: 320px;
-    left: 1065px;
+    margin-left: 1165px;
+    margin-bottom: -320px;
 }
 
 
