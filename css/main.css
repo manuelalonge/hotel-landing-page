@@ -1153,7 +1153,8 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 118px;
+    margin-top: 71px;
+    margin-bottom: 68px;
     width: 731px;
     height: 327px;
 }
@@ -1183,16 +1184,16 @@ input::placeholder {
 
 .guest-review__slider-quotation-mark-one {
     margin-left: 80px;
-    margin-top: 18px;
+    margin-top: 45px;
 }
 
 .guest-review__slider-quotation-mark-two {
     margin-left: 600px;
-    margin-bottom: -60px;
+    margin-bottom: -40px;
 }
 
 .guest-review__review-wrapper {
-    margin-top: -298px;
+    margin-top: -325px;
 }
 
 .guest-review__slider-user-name {
@@ -1239,7 +1240,7 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 17px;
+    margin-top: -7px;
     width: 507px;
     height: 114px;
     font-family: Mulish;
@@ -1257,14 +1258,14 @@ input::placeholder {
     width: 30px;
     height: 30px;
     margin-left: 85px;
-    margin-bottom: -320px;
+    margin-bottom: -280px;
 }
 
 .guest-review__chevron-right {
     width: 30px;
     height: 30px;
     margin-left: 1165px;
-    margin-bottom: -320px;
+    margin-bottom: -280px;
 }
 
 
