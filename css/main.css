@@ -343,7 +343,7 @@ input::placeholder {
     width: 728px;
     height: 450px;
     border-radius: 8px;
-    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(../images/hotelslider/hotelslider.jpg);
+    background: linear-gradient(180deg, rgba(6, 11, 66, 0.2) 0%, rgba(10, 34, 61, 1) 100%), url(../images/hotelslider/hotelslider.jpg);
 }
 
 
@@ -1272,27 +1272,25 @@ input::placeholder {
 /* Newsletter styles */
 
 .newsletter {
-    position: absolute;
-    width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 260px;
-    left: 0px;
-    top: 4000px;
-    background: rgba(10, 34, 61, 0.8);
-    /*19/11 - Not sure it is correct*/
 }
 
 .newsletter__background {
-    width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 260px;
-    opacity: 0.2;
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(../images/newsletter/newsletter-background.jpg);
 }
 
 .newsletter__call-to-action {
-    position: absolute;
     width: 242px;
     height: 75px;
-    margin-left: 353px;
-    top: 80px;
+    margin-left: 275px;
+    margin-top: -190px;
 }
 
 .newsletter__call-to-action-text1 {
@@ -1301,7 +1299,7 @@ input::placeholder {
     font-weight: 300;
     font-size: 24px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .newsletter__call-to-action-text2 {
@@ -1311,23 +1309,20 @@ input::placeholder {
     font-size: 36px;
     line-height: 45px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: -20px;
 }
 
 .newsletter__subscribe-bar {
-    position: absolute;
     width: 350px;
     height: 55px;
-    left: 1020px;
-    top: 112px;
+    margin-top: -65px;
+    margin-left: 657px;
 }
 
 .newsletter__subscribe-field {
-    position: absolute;
     width: 285px;
     height: 50px;
-    left: -285px;
     background: #FFFFFF;
     border-color: #FFFFFF;
     border-radius: 4px;
@@ -1336,10 +1331,10 @@ input::placeholder {
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
+    float: left;
 }
 
 .newsletter__subscribe-button {
-    position: absolute;
     width: 65px;
     height: 57.6px;
     background: #EC1F46;
@@ -1351,6 +1346,8 @@ input::placeholder {
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
+    float: right;
+    margin-top: -56px;
 }
 
 
