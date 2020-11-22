@@ -1365,7 +1365,7 @@ input::placeholder {
 
 .other-activities__header {
     margin-top: 60px;
-    margin-left: 90px;
+    margin-left: 80px;
     width: 220px;
     height: 30px;
     font-family: Mulish;
@@ -1449,10 +1449,8 @@ input::placeholder {
 /* Footer main styles */
 
 .footer {
-    width: 1440px;
+    width: 100%;
     height: 900px;
-    left: 0px;
-    top: 4800px;
     background: #0A223D;
 }
 
@@ -1461,60 +1459,76 @@ input::placeholder {
 
 .footer__top {
     width: 1110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 223px;
-    margin-top: 108px;
+    margin-top: 68px;
 }
 
 .footer__top-logo {
     width: 153px;
     height: 175px;
-    margin-top: 31px;
+    margin-top: 139px;
 }
 
 .footer__top-group {
     width: 260px;
     height: 180px;
-    margin-top: -18px;
     font-family: Mulish;
     font-style: normal;
-    font-weight: 700;
     color: #FFFFFF;
 }
 
-.footer__top-group--one {}
+.footer__top-group--one {
+    margin-left: 280px;
+    margin-top: -235px;
+}
 
-.footer__top-group--two {}
+.footer__top-group--two {
+    margin-left: 565px;
+    margin-top: -200px;
+}
 
-.footer__top-group--three {}
+.footer__top-group--three {
+    margin-left: 920px;
+    margin-top: -200px;
+}
 
 .footer__top-group--four {
     width: 293px;
+    margin-left: 565px;
 }
 
 .footer__top-list-header {
     font-size: 18px;
+    font-weight: 700;
     line-height: 23px;
 }
 
-.footer__top-list-items {
-    margin-left: -40px;
-    margin-top: -5px;
+.footer__top-list-header-social {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
 }
 
 .footer__top-list-item {
     font-size: 16px;
+    font-weight: normal;
     line-height: 23px;
 }
 
 .footer__top-social-network-items {
-    margin-left: -48px;
+    margin-left: 190px;
+    margin-top: -40px;
+    width: 280px;
 }
 
 .footer__top-social-network-item {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 8.5px;
+    justify-content: space-around;
+    padding: 0 6px;
 }
 
 
@@ -1523,8 +1537,6 @@ input::placeholder {
 .footer__contacts {
     width: 1113px;
     height: 317px;
-    left: 161px;
-    margin-top: 420px;
 }
 
 .footer__contacts-details {
@@ -1542,7 +1554,6 @@ input::placeholder {
     line-height: 23px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: -3px;
 }
 
 .footer__contacts-details-call-to-action {
@@ -1552,22 +1563,16 @@ input::placeholder {
     font-size: 14px;
     line-height: 160%;
     color: #FFFFFF;
-    margin-top: -45px;
 }
 
 .footer__contacts-details-items {
     width: 489px;
     height: 154px;
-    margin-left: -44px;
 }
 
-.footer__contacts-details-item {
-    padding: 6px;
-}
+.footer__contacts-details-item {}
 
 .footer__contacts-details-text {
-    margin-left: 35px;
-    margin-top: -24px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -1576,9 +1581,7 @@ input::placeholder {
     color: #BDBDBD;
 }
 
-.footer__contacts-details-icon--phone {
-    margin-bottom: -6px;
-}
+.footer__contacts-details-icon--phone {}
 
 .footer__contacts-form {
     width: 539px;
@@ -1586,7 +1589,6 @@ input::placeholder {
 }
 
 .footer__contacts-input-fields {
-    margin-top: -45px;
     width: 539px;
 }
 
@@ -1647,7 +1649,6 @@ input::placeholder {
 .footer__bottom {
     width: 696px;
     height: 22px;
-    margin-top: 832px;
 }
 
 .footer__bottom-disclaimer {
@@ -1658,9 +1659,7 @@ input::placeholder {
 .footer__bottom-disclaimer-list {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: -40px;
-    margin-top: -4px;
+    justify-content: space-around;
 }
 
 .footer__bottom-disclaimer-list-item {
@@ -1676,17 +1675,11 @@ input::placeholder {
     width: 100px;
 }
 
-.footer__bottom-disclaimer-list-item--two {
-    margin-left: -35px;
-}
+.footer__bottom-disclaimer-list-item--two {}
 
-.footer__bottom-disclaimer-list-item--three {
-    margin-left: 2px;
-}
+.footer__bottom-disclaimer-list-item--three {}
 
 .footer__bottom-payment-methods {
     width: 136px;
     height: 22px;
-    left: 560px;
-    background: url();
 }
