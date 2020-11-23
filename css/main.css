@@ -1368,8 +1368,9 @@ input::placeholder {
 }
 
 .other-activities__header {
-    margin-top: 60px;
-    margin-left: 80px;
+    position: relative;
+    top: 60px;
+    left: 90px;
     width: 220px;
     height: 30px;
     font-family: Mulish;
@@ -1383,18 +1384,17 @@ input::placeholder {
 
 .other-activities__cards-wrapper {
     width: 1110px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 255px;
-    margin-top: 57px;
+    position: relative;
+    top: 147px;
+    left: 90px;
 }
 
 .other-activities__single-card {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 24px;
+    margin-right: 20px;
     width: 255px;
     height: 255px;
     border-radius: 6px;
@@ -1418,8 +1418,9 @@ input::placeholder {
 }
 
 .other-activities__text {
-    width: 145px;
-    height: 40px;
+    position: relative;
+    top: 75px;
+    left: 26px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1428,7 +1429,30 @@ input::placeholder {
     color: #FFFFFF;
 }
 
+.other-activities__text--card-one {
+    width: 145px;
+    height: 40px;
+}
+
+.other-activities__text--card-two {
+    width: 153px;
+    height: 40px;
+}
+
+.other-activities__text--card-three {
+    width: 161px;
+    height: 40px;
+}
+
+.other-activities__text--card-four {
+    width: 200px;
+    height: 40px;
+}
+
 .other-activities__button {
+    position: relative;
+    top: 20px;
+    left: 26px;
     width: 100px;
     height: 30px;
     background: #EC1F46;
@@ -1440,7 +1464,6 @@ input::placeholder {
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
-    margin-top: 201px;
 }
 
 
