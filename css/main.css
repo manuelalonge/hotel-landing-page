@@ -25,6 +25,7 @@ input::placeholder {
 /* Top navbar styles */
 
 .topnavbar {
+    display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -32,12 +33,12 @@ input::placeholder {
     height: 60px;
 }
 
-.topnavbar__items {
+.topnavbar__list {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.topnavbar__item {
+.topnavbar__list-item {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -49,37 +50,37 @@ input::placeholder {
     color: #333333;
 }
 
-.topnavbar__item--item-two-distance {
+.topnavbar__list-item--item-two-distance {
     margin-left: 455px;
 }
 
-.topnavbar__item--item-three-distance {
+.topnavbar__list-item--item-three-distance {
     margin-left: -0.19px;
     margin-right: 0vw;
 }
 
-.topnavbar__text1 {
+.topnavbar__questions-text {
     width: 243px;
     height: 13px;
 }
 
-.topnavbar__text2 {
+.topnavbar__btp-text {
     width: 64px;
     height: 13px;
 }
 
-.topnavbar__text3 {
+.topnavbar__loyalty-text {
     width: 77px;
     height: 13px;
 }
 
-.topnavbar__img1 {
+.topnavbar__btp-gift-img {
     width: 18px;
     height: 18px;
     margin-right: 20px;
 }
 
-.topnavbar__img2 {
+.topnavbar__loyalty-img {
     width: 18px;
     height: 18px;
     margin-right: 20px;
@@ -119,13 +120,14 @@ input::placeholder {
     margin-left: -3px;
     padding-top: -5px;
     background-color: #ec1f46;
-    border-color: #EC1F46;
+    border: none;
+    ;
     width: 5.08vw;
     height: 42px;
     border-radius: 0px 10px 10px 0px;
 }
 
-.midnavbar__item {
+.midnavbar__list-item {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -139,37 +141,37 @@ input::placeholder {
     height: 24px;
 }
 
-.midnavbar__img1 {
+.midnavbar__search-icon {
     color: white;
     width: 16px;
     height: 16px;
 }
 
-.midnavbar__img2 {
+.midnavbar__cart {
     width: 34px;
     height: 33.98px;
     margin-right: -1415px;
 }
 
-.midnavbar__item-userbox {
+.midnavbar__list-item-userbox {
     width: 150px;
     margin-left: 765px;
     height: 40px;
 }
 
-.midnavbar__item-username {
+.midnavbar__username {
     font-family: Mulish;
     width: 48.9px;
     line-height: 18px;
 }
 
-.midnavbar__img3 {
+.midnavbar__user-profile-photo {
     height: 40px;
     margin-left: 40px;
     margin-right: 19.97px;
 }
 
-.midnavbar__img4 {
+.midnavbar__down-arrow {
     width: 24px;
     height: 24px;
     margin-top: 12px;
@@ -215,7 +217,7 @@ input::placeholder {
 
 /* Bread crumb styles */
 
-.breadcrumb {
+.breadcrumb__list {
     width: 15.62vw;
     height: 50px;
     padding: 10px 16px;
@@ -223,7 +225,7 @@ input::placeholder {
     background: #f5fafe;
 }
 
-.breadcrumb__item {
+.breadcrumb__list-item {
     display: inline;
     font-size: 10px;
     font-family: Mulish;
@@ -242,7 +244,7 @@ input::placeholder {
 
 .hotelname {
     display: block;
-    width: 100vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
@@ -269,7 +271,7 @@ input::placeholder {
     color: #333333;
 }
 
-.hotelname__text1 {
+.hotelname__half-board {
     width: 389px;
     height: 15px;
     font-family: Mulish;
@@ -278,7 +280,7 @@ input::placeholder {
     color: #333333;
 }
 
-.hotelname__offer {
+.hotelname__flash-offer {
     width: 70px;
     height: 20px;
     background: #ec1f46;
@@ -296,7 +298,7 @@ input::placeholder {
     margin-top: -54.5px;
 }
 
-.hotelname__text2 {
+.hotelname__flash-offer-text {
     display: block;
     width: 74%;
     margin-left: auto;
@@ -308,7 +310,7 @@ input::placeholder {
     line-height: 13px;
 }
 
-.hotelname__text3 {
+.hotelname__user-ratings-text {
     display: block;
     width: 74%;
     margin-left: auto;
@@ -319,7 +321,7 @@ input::placeholder {
     line-height: 13px;
 }
 
-.hotelname__ratings-mark {
+.hotelname__ratings-number {
     width: 31px;
     height: 18px;
     display: block;
@@ -351,7 +353,7 @@ input::placeholder {
 /*Main styles*/
 
 .main {
-    width: 100vw;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -422,7 +424,7 @@ input::placeholder {
     justify-content: space-around;
 }
 
-.bookingbox__personroom-img {
+.bookingbox__personroom-icon {
     width: 14px;
     height: 14px;
 }
@@ -484,7 +486,8 @@ input::placeholder {
     margin-bottom: 26px;
     height: 40px;
     background: #ec1f46;
-    border-color: #ec1f46;
+    border: none;
+    ;
     border-radius: 4px;
     color: #ffffff;
     font-family: Nunito;
@@ -500,13 +503,13 @@ input::placeholder {
 
 /* Map styles */
 
-.map {
+.map-wrapper {
     border-radius: 8px;
     margin-left: 850px;
     margin-top: 25px;
 }
 
-.map__img {
+.map-wrapper__img {
     width: 350px;
     height: 213px;
 }
@@ -514,21 +517,21 @@ input::placeholder {
 
 /* Cards menu styles */
 
-.cardsmenu {
-    width: 100vw;
+.cardsmenu-wrapper {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.cardsmenu__list {
+.cardsmenu-wrapper__list {
     width: 92vw;
     margin-left: 69px;
     margin-top: 67.68px;
     height: 35.32px;
 }
 
-.cardsmenu__list-item {
+.cardsmenu-wrapper__list-item {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
@@ -536,7 +539,7 @@ input::placeholder {
     padding: 0 29px;
 }
 
-.cardsmenu__link {
+.cardsmenu-wrapper__link {
     text-decoration: none;
     font-size: 14px;
     line-height: 18px;
@@ -546,11 +549,11 @@ input::placeholder {
     color: #333333;
 }
 
-.cardsmenu__link--active {
+.cardsmenu-wrapper__link--active {
     color: #ec1f46;
 }
 
-.cardsmenu__border {
+.cardsmenu-wrapper__border {
     height: 4px;
     width: 118px;
     margin-left: 97px;
@@ -635,12 +638,12 @@ input::placeholder {
     margin-top: -110px;
 }
 
-.packagesummary__item-text::before {
-    content: url(../images/packagesummary/packagesummary__item-icon.jpg);
+.packagesummary__list-item-text::before {
+    content: url(../images/packagesummary/packagesummary__list-item-icon.jpg);
     margin-right: 20px;
 }
 
-.packagesummary__item {
+.packagesummary__list-item {
     width: 220px;
     font-family: Mulish;
     font-size: 12px;
@@ -648,25 +651,25 @@ input::placeholder {
     margin-left: -70px;
 }
 
-.packagesummary__item-text {
+.packagesummary__list-item-text {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.packagesummary__item-text-deadline {
+.packagesummary__list-item-text-deadline {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 38px;
 }
 
-.packagesummary__item-text-calendar::before {
-    content: url(../images/packagesummary/packagesummary__item-icon-calendar.jpg);
+.packagesummary__list-item-text-calendar::before {
+    content: url(../images/packagesummary/packagesummary__list-item-icon-calendar.jpg);
     margin-right: 20px;
 }
 
-.packagesummary__item-text-calendar {
+.packagesummary__list-item-text-calendar {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
@@ -976,7 +979,8 @@ input::placeholder {
     width: 120px;
     height: 40px;
     background: #EC1F46;
-    border-color: #ec1f46;
+    border: none;
+    ;
     border-radius: 4px;
     margin-left: 230px;
     margin-top: 80px;
@@ -1117,7 +1121,7 @@ input::placeholder {
     width: 120px;
     height: 40px;
     background: #EC1F46;
-    border-color: #ec1f46;
+    border: none;
     border-radius: 4px;
     margin-left: 209px;
     margin-top: 65px;
@@ -1193,7 +1197,7 @@ input::placeholder {
     margin-bottom: -40px;
 }
 
-.guest-review__review-wrapper {
+.guest-review__actual-review-wrapper {
     margin-top: -325px;
 }
 
@@ -1237,7 +1241,7 @@ input::placeholder {
     position: relative;
 }
 
-.guest-review__actual-review {
+.guest-review__actual-review-text {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1340,7 +1344,7 @@ input::placeholder {
     width: 65px;
     height: 57.6px;
     background: #EC1F46;
-    border-color: #ec1f46;
+    border: none;
     border-radius: 0px 4px 4px 0px;
     color: #FFFFFF;
     font-family: Mulish;
@@ -1377,7 +1381,7 @@ input::placeholder {
     color: #000000;
 }
 
-.other-activities__cards {
+.other-activities__cards-wrapper {
     width: 1110px;
     display: block;
     margin-left: auto;
@@ -1386,9 +1390,9 @@ input::placeholder {
     margin-top: 57px;
 }
 
-.other-activities__card {
+.other-activities__single-card {
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-left: 24px;
     width: 255px;
@@ -1396,21 +1400,21 @@ input::placeholder {
     border-radius: 6px;
 }
 
-.other-activities__card--one {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--one.jpg);
+.other-activities__single-card--one {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__single-card--one.jpg);
     margin-left: -2px;
 }
 
-.other-activities__card--two {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--two.jpg);
+.other-activities__single-card--two {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__single-card--two.jpg);
 }
 
-.other-activities__card--three {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--three.jpg);
+.other-activities__single-card--three {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__single-card--three.jpg);
 }
 
-.other-activities__card--four {
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__card--four.jpg);
+.other-activities__single-card--four {
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(../images/other-activities/other-activities__single-card--four.jpg);
 }
 
 .other-activities__text {
@@ -1424,17 +1428,11 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.other-activities__button-wrapper {
-    width: 100px;
-    height: 30px;
-    padding-right: 220px;
-}
-
 .other-activities__button {
     width: 100px;
     height: 30px;
     background: #EC1F46;
-    border-color: #ec1f46;
+    border: none;
     border-radius: 4px;
     font-family: Nunito;
     font-style: normal;
@@ -1450,8 +1448,12 @@ input::placeholder {
 
 .footer {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 900px;
     background: #0A223D;
+    margin-top: 98px;
 }
 
 
@@ -1463,7 +1465,6 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 223px;
-    margin-top: 68px;
 }
 
 .footer__top-logo {
@@ -1536,6 +1537,10 @@ input::placeholder {
 
 .footer__contacts {
     width: 1113px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 178px;
     height: 317px;
 }
 
@@ -1565,14 +1570,31 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.footer__contacts-details-items {
-    width: 489px;
-    height: 154px;
+.footer__contacts-details-icons {
+    margin-left: -480px;
 }
 
-.footer__contacts-details-item {}
+.footer__contacts-details-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 22px;
+}
 
-.footer__contacts-details-text {
+.footer__contacts-details-icon-three {}
+
+.footer__contact-details-items {
+    width: 488px;
+    height: 154px;
+    margin-left: 40px;
+    margin-top: -200px;
+}
+
+.footer__contact-details-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -1581,7 +1603,7 @@ input::placeholder {
     color: #BDBDBD;
 }
 
-.footer__contacts-details-icon--phone {}
+.footer__contact-details-item--three {}
 
 .footer__contacts-form {
     width: 539px;
@@ -1622,7 +1644,7 @@ input::placeholder {
     width: 160px;
     height: 50px;
     background: #EC1F46;
-    border-color: #EC1F46;
+    border: none;
     border-radius: 4px;
     color: #FFFFFF;
     text-align: center;
