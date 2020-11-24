@@ -8,7 +8,8 @@
 
 body {
     width: 1280px;
-    margin: 0px auto;
+    margin: 0 auto 0 auto;
+    display: block;
     background: #f5fafe;
 }
 
@@ -1290,6 +1291,7 @@ input::placeholder {
     margin-right: auto;
     height: 260px;
     background: linear-gradient(180deg, rgba(10, 34, 61, 0.8) 20%, rgba(10, 34, 61, 0.8) 80%), url(../images/newsletter/newsletter-background.jpg);
+    background-position: center;
 }
 
 .newsletter__call-to-action {
