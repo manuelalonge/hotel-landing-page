@@ -1495,35 +1495,49 @@ input::placeholder {
 .footer__top-logo {
     width: 153px;
     height: 175px;
-    margin-top: 139px;
+    position: relative;
+    top: 139px;
 }
 
 .footer__top-group {
-    width: 260px;
-    height: 180px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-family: Mulish;
     font-style: normal;
     color: #FFFFFF;
 }
 
 .footer__top-group--one {
-    margin-left: 280px;
-    margin-top: -235px;
+    left: 125px;
+    position: relative;
+    top: -78px;
+    width: 156px;
+    height: 218px;
 }
 
 .footer__top-group--two {
-    margin-left: 565px;
-    margin-top: -200px;
+    position: relative;
+    top: -78px;
+    left: 245px;
+    width: 251px;
+    height: 171px;
 }
 
 .footer__top-group--three {
-    margin-left: 920px;
-    margin-top: -200px;
+    position: relative;
+    top: -78px;
+    left: 341px;
+    width: 195px;
+    height: 127px;
 }
 
 .footer__top-group--four {
+    position: relative;
+    top: 140px;
+    right: 207px;
     width: 293px;
-    margin-left: 565px;
+    height: 24px;
 }
 
 .footer__top-list-header {
