@@ -1774,9 +1774,13 @@ input::placeholder {
     flex-direction: column;
     justify-content: space-around;
     padding-right: 10px;
-    text-align: center;
     width: 120px;
     height: 15px;
+}
+
+.footer__bottom-disclaimer-link {
+    text-align: center;
+    text-decoration: none;
     font-family: Mulish;
     font-size: 12px;
     line-height: 15px;
