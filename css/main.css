@@ -1752,20 +1752,29 @@ input::placeholder {
 .footer__bottom {
     width: 696px;
     height: 22px;
+    position: relative;
+    top: 400px;
 }
 
 .footer__bottom-disclaimer {
-    width: 353px;
+    width: 503px;
     height: 15px;
+    bottom: 48px;
+    position: relative;
+    left: 400px;
 }
 
 .footer__bottom-disclaimer-list {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 483px;
+    height: 15px;
 }
 
 .footer__bottom-disclaimer-list-item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 10px;
+    text-align: center;
     width: 120px;
     height: 15px;
     font-family: Mulish;
@@ -1774,15 +1783,11 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.footer__bottom-disclaimer-list-item--one {
-    width: 100px;
-}
-
-.footer__bottom-disclaimer-list-item--two {}
-
-.footer__bottom-disclaimer-list-item--three {}
-
 .footer__bottom-payment-methods {
+    position: relative;
+    left: 1054px;
+    bottom: 63px;
     width: 136px;
     height: 22px;
+    background: url(../images/footer/footer__payments-methods.jpg);
 }
