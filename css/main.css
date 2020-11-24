@@ -1468,6 +1468,17 @@ input::placeholder {
     color: #FFFFFF;
 }
 
+.blank-space {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 17px;
+    background-color: #ffffff;
+    position: relative;
+    top: 102px;
+}
+
 
 /* Footer main styles */
 
@@ -1476,7 +1487,8 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 900px;
+    height: 1020px;
+    /* for some reason I have to put it at 1020px because 900px doesn't cover all the last part of the screen*/
     background: #0A223D;
     margin-top: 98px;
 }
@@ -1546,29 +1558,24 @@ input::placeholder {
     line-height: 23px;
 }
 
-.footer__top-list-header-social {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23px;
-}
-
 .footer__top-list-item {
     font-size: 16px;
     font-weight: normal;
     line-height: 23px;
 }
 
-.footer__top-social-network-items {
-    margin-left: 190px;
-    margin-top: -40px;
+.footer__top-social-network-list {
     width: 280px;
+    position: relative;
+    left: 200px;
+    bottom: 55px;
 }
 
-.footer__top-social-network-item {
+.footer__top-social-network-list-item {
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    padding: 0 6px;
+    padding-right: 10px;
 }
 
 
@@ -1579,11 +1586,12 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 178px;
+    position: relative;
+    top: 180px;
     height: 317px;
 }
 
-.footer__contacts-details {
+.footer__contacts-details-wrapper {
     width: 493px;
     height: 245px;
 }
@@ -1600,7 +1608,15 @@ input::placeholder {
     color: #FFFFFF;
 }
 
+.footer__contacts-header-form {
+    position: relative;
+    left: 567px;
+    bottom: 260px;
+}
+
 .footer__contacts-details-call-to-action {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -1609,31 +1625,40 @@ input::placeholder {
     color: #FFFFFF;
 }
 
-.footer__contacts-details-icons {
-    margin-left: -480px;
+.footer__contacts-details-icons-list {
+    position: relative;
+    right: 238px;
+    top: 25px;
 }
 
 .footer__contacts-details-icon {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 22px;
 }
 
-.footer__contacts-details-icon-three {}
+.footer__contacts-details-icon-two {
+    position: relative;
+    top: 29px;
+}
 
-.footer__contact-details-items {
+.footer__contacts-details-icon-three {
+    position: relative;
+    top: 110px;
+}
+
+.footer__contact-details-text-list {
     width: 488px;
     height: 154px;
-    margin-left: 40px;
-    margin-top: -200px;
+    position: relative;
+    left: 60px;
+    bottom: 52px;
 }
 
-.footer__contact-details-item {
+.footer__contact-details-text-list-item {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 15px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -1642,15 +1667,26 @@ input::placeholder {
     color: #BDBDBD;
 }
 
-.footer__contact-details-item--three {}
+.footer__contact-details-text-list-item--two {
+    position: relative;
+    top: 20px;
+}
 
-.footer__contacts-form {
+.footer__contact-details-text-list-item--three {
+    position: relative;
+    top: 62px;
+}
+
+.footer__contacts-form-wrapper {
     width: 539px;
     height: 317px;
 }
 
 .footer__contacts-input-fields {
     width: 539px;
+    position: relative;
+    left: 567px;
+    bottom: 267px;
 }
 
 .footer__contacts-input-field-one {
@@ -1663,20 +1699,22 @@ input::placeholder {
 
 .footer__contacts-input-field-two {
     font-family: Mulish;
-    width: 255px;
+    width: 254px;
     height: 50px;
-    left: 274px;
     background: #FFFFFF;
     border-radius: 4px;
+    position: relative;
+    left: 8px;
 }
 
 .footer__contacts-input-field-three {
     font-family: Mulish;
     width: 530px;
     height: 123px;
-    top: 120px;
     background: #FFFFFF;
     border-radius: 4px;
+    position: relative;
+    top: 15px;
 }
 
 .footer__contacts-send-button {
@@ -1691,11 +1729,15 @@ input::placeholder {
     line-height: 15px;
     font-weight: 700;
     font-family: Mulish;
+    position: relative;
+    top: 41px;
 }
 
 .footer__contacts-required-fields {
     width: 97px;
     height: 15px;
+    position: relative;
+    left: 442px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
