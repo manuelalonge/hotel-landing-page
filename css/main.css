@@ -30,7 +30,7 @@ input::placeholder {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0vw;
+    padding: 0px;
     height: 60px;
 }
 
@@ -44,30 +44,34 @@ input::placeholder {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px 100px;
+    position: relative;
+    top: 24px;
     font-family: Mulish;
     font-size: 10px;
     line-height: 13px;
     color: #333333;
 }
 
-.topnavbar__list-item--item-two-distance {
-    margin-left: 455px;
-}
+.topnavbar__list-item--item-two-distance {}
 
-.topnavbar__list-item--item-three-distance {
-    margin-left: -0.19px;
-    margin-right: 0vw;
-}
+.topnavbar__list-item--item-three-distance {}
 
 .topnavbar__questions-text {
     width: 243px;
     height: 13px;
 }
 
+.topnavbar__btp-text:before {
+    content: url(../images/topnavbar/topnavbar__btp-gift-img.svg);
+}
+
 .topnavbar__btp-text {
     width: 64px;
     height: 13px;
+}
+
+.topnavbar__loyalty-text::before {
+    content: url(../images/topnavbar/topnavbar__loyalty-img.svg)
 }
 
 .topnavbar__loyalty-text {
@@ -78,13 +82,11 @@ input::placeholder {
 .topnavbar__btp-gift-img {
     width: 18px;
     height: 18px;
-    margin-right: 20px;
 }
 
 .topnavbar__loyalty-img {
     width: 18px;
     height: 18px;
-    margin-right: 20px;
 }
 
 
