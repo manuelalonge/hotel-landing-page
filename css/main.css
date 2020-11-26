@@ -52,9 +52,17 @@ input::placeholder {
     color: #333333;
 }
 
-.topnavbar__list-item--item-two-distance {}
+.topnavbar__list-item--item-one-distance {
+    left: 98px;
+}
 
-.topnavbar__list-item--item-three-distance {}
+.topnavbar__list-item--item-two-distance {
+    left: 658px;
+}
+
+.topnavbar__list-item--item-three-distance {
+    left: 758px;
+}
 
 .topnavbar__questions-text {
     width: 243px;
@@ -63,30 +71,24 @@ input::placeholder {
 
 .topnavbar__btp-text:before {
     content: url(../images/topnavbar/topnavbar__btp-gift-img.svg);
+    margin-right: 20px;
+    margin-top: 25px;
 }
 
 .topnavbar__btp-text {
-    width: 64px;
+    width: auto;
     height: 13px;
 }
 
 .topnavbar__loyalty-text::before {
-    content: url(../images/topnavbar/topnavbar__loyalty-img.svg)
+    content: url(../images/topnavbar/topnavbar__loyalty-img.svg);
+    margin-right: 20px;
+    margin-top: 25px;
 }
 
 .topnavbar__loyalty-text {
-    width: 77px;
+    width: auto;
     height: 13px;
-}
-
-.topnavbar__btp-gift-img {
-    width: 18px;
-    height: 18px;
-}
-
-.topnavbar__loyalty-img {
-    width: 18px;
-    height: 18px;
 }
 
 
