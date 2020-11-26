@@ -15,7 +15,7 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0vw;
+    padding: 0px;
 }
 
 input::placeholder {
@@ -34,18 +34,11 @@ input::placeholder {
     height: 60px;
 }
 
-.topnavbar__list {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .topnavbar__list-item {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     position: relative;
-    top: 24px;
     font-family: Mulish;
     font-size: 10px;
     line-height: 13px;
@@ -72,7 +65,6 @@ input::placeholder {
 .topnavbar__btp-text:before {
     content: url(../images/topnavbar/topnavbar__btp-gift-img.svg);
     margin-right: 20px;
-    margin-top: 25px;
 }
 
 .topnavbar__btp-text {
@@ -83,7 +75,6 @@ input::placeholder {
 .topnavbar__loyalty-text::before {
     content: url(../images/topnavbar/topnavbar__loyalty-img.svg);
     margin-right: 20px;
-    margin-top: 25px;
 }
 
 .topnavbar__loyalty-text {
@@ -104,9 +95,11 @@ input::placeholder {
 }
 
 .midnavbar__search-bar {
-    padding: 0px;
-    margin-left: 365px;
-    margin-top: -85px;
+    width: 350px;
+    height: 40px;
+    position: relative;
+    left: 400px;
+    top: -57px;
 }
 
 .midnavbar__search-bar-input-field {
@@ -118,15 +111,14 @@ input::placeholder {
     font-size: 12px;
     font-weight: bold;
     line-height: 15.06px;
-    float: left;
 }
 
 .midnavbar__search-bar-button {
-    margin-left: -3px;
-    padding-top: -5px;
+    position: relative;
+    top: -41.5px;
+    left: 285px;
     background-color: #ec1f46;
     border: none;
-    ;
     width: 5.08vw;
     height: 42px;
     border-radius: 0px 10px 10px 0px;
@@ -135,15 +127,14 @@ input::placeholder {
 .midnavbar__list-item {
     display: inline-flex;
     flex-direction: row;
-    justify-content: center;
     margin-top: 35px;
-    margin-bottom: 35px;
 }
 
 .midnavbar__logo {
-    margin-left: 100px;
     width: 177px;
     height: 24px;
+    position: relative;
+    left: 97px;
 }
 
 .midnavbar__search-icon {
@@ -155,13 +146,15 @@ input::placeholder {
 .midnavbar__cart {
     width: 34px;
     height: 33.98px;
-    margin-right: -1415px;
+    position: relative;
+    left: 788px;
 }
 
 .midnavbar__list-item-userbox {
     width: 150px;
-    margin-left: 765px;
     height: 40px;
+    position: relative;
+    left: 849px;
 }
 
 .midnavbar__username {
@@ -172,15 +165,15 @@ input::placeholder {
 
 .midnavbar__user-profile-photo {
     height: 40px;
-    margin-left: 40px;
-    margin-right: 19.97px;
+    margin-right: 18px;
 }
 
 .midnavbar__down-arrow {
     width: 24px;
     height: 24px;
-    margin-top: 12px;
-    margin-left: 19.97px;
+    position: relative;
+    left: 19px;
+    top: 13px;
 }
 
 
@@ -196,15 +189,15 @@ input::placeholder {
 }
 
 .bottomnavbar__list {
-    margin-left: 60px;
+    position: relative;
+    left: 96px;
 }
 
 .bottomnavbar__list-item {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 0px 41.5px;
     margin-top: 31px;
+    padding-right: 85.5px;
 }
 
 .bottomnavbar__link {
@@ -226,7 +219,7 @@ input::placeholder {
     width: 15.62vw;
     height: 50px;
     padding: 10px 16px;
-    margin-left: 6.25vw;
+    margin-left: 80px;
     background: #f5fafe;
 }
 
