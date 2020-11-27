@@ -1392,7 +1392,7 @@ input::placeholder {
     font-size: 12px;
     line-height: 15px;
     float: right;
-    margin-top: -56px;
+    margin-top: -57px;
 }
 
 
@@ -1505,6 +1505,17 @@ input::placeholder {
     color: #FFFFFF;
 }
 
+.blank-space {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 17px;
+    background: #ffffff;
+    position: relative;
+    top: 101px;
+}
+
 
 /* Footer main styles */
 
@@ -1513,8 +1524,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 1020px;
-    /* for some reason I have to put it at 1020px because 900px doesn't cover all the last part of the screen*/
+    height: 900px;
     background: #0A223D;
     margin-top: 98px;
 }
@@ -1549,7 +1559,7 @@ input::placeholder {
 .footer__top-group--one {
     left: 125px;
     position: relative;
-    top: -78px;
+    margin-top: -108px;
     width: 156px;
     height: 218px;
 }
@@ -1573,7 +1583,7 @@ input::placeholder {
 .footer__top-group--four {
     position: relative;
     top: 140px;
-    right: 207px;
+    left: -207px;
     width: 293px;
     height: 24px;
 }
@@ -1594,7 +1604,7 @@ input::placeholder {
     width: 280px;
     position: relative;
     left: 200px;
-    bottom: 55px;
+    top: -55px;
 }
 
 .footer__top-social-network-list-item {
@@ -1612,8 +1622,7 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: 180px;
+    margin-top: 180px;
     height: 317px;
 }
 
