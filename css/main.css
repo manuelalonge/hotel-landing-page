@@ -8,8 +8,7 @@
 
 body {
     width: 1280px;
-    margin: 0 auto 0 auto;
-    display: block;
+    margin: 0 auto;
     background: #f5fafe;
 }
 
@@ -1512,8 +1511,8 @@ input::placeholder {
     margin-right: auto;
     height: 17px;
     background: #ffffff;
+    top: 102px;
     position: relative;
-    top: 101px;
 }
 
 
@@ -1538,13 +1537,14 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 223px;
+    background-color: brown;
+    position: relative;
+    top: 91px;
 }
 
 .footer__top-logo {
     width: 153px;
     height: 175px;
-    position: relative;
-    top: 139px;
 }
 
 .footer__top-group {
@@ -1559,30 +1559,30 @@ input::placeholder {
 .footer__top-group--one {
     left: 125px;
     position: relative;
-    margin-top: -108px;
     width: 156px;
     height: 218px;
+    top: -198px;
 }
 
 .footer__top-group--two {
     position: relative;
-    top: -78px;
     left: 245px;
     width: 251px;
     height: 171px;
+    top: -198px;
 }
 
 .footer__top-group--three {
     position: relative;
-    top: -78px;
     left: 341px;
     width: 195px;
     height: 127px;
+    top: -198px;
 }
 
 .footer__top-group--four {
     position: relative;
-    top: 140px;
+    top: 20px;
     left: -207px;
     width: 293px;
     height: 24px;
@@ -1622,8 +1622,9 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 180px;
+    margin-top: 89px;
     height: 317px;
+    background-color: yellow;
 }
 
 .footer__contacts-details-wrapper {
@@ -1632,8 +1633,8 @@ input::placeholder {
 }
 
 .footer__contacts-header {
-    width: 394px;
-    height: 69px;
+    width: 189px;
+    height: 23px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1650,7 +1651,7 @@ input::placeholder {
 }
 
 .footer__contacts-details-call-to-action {
-    margin-top: 0px;
+    margin-top: 35px;
     margin-bottom: 0px;
     font-family: Mulish;
     font-style: normal;
@@ -1663,7 +1664,7 @@ input::placeholder {
 .footer__contacts-details-icons-list {
     position: relative;
     right: 238px;
-    top: 25px;
+    top: 15px;
 }
 
 .footer__contacts-details-icon {
@@ -1687,7 +1688,7 @@ input::placeholder {
     height: 154px;
     position: relative;
     left: 60px;
-    bottom: 52px;
+    bottom: 62px;
 }
 
 .footer__contact-details-text-list-item {
@@ -1721,7 +1722,7 @@ input::placeholder {
     width: 539px;
     position: relative;
     left: 567px;
-    bottom: 267px;
+    bottom: 250px;
 }
 
 .footer__contacts-input-field-one {
@@ -1739,12 +1740,12 @@ input::placeholder {
     background: #FFFFFF;
     border-radius: 4px;
     position: relative;
-    left: 8px;
+    left: 18px;
 }
 
 .footer__contacts-input-field-three {
     font-family: Mulish;
-    width: 530px;
+    width: 539px;
     height: 123px;
     background: #FFFFFF;
     border-radius: 4px;
@@ -1765,7 +1766,7 @@ input::placeholder {
     font-weight: 700;
     font-family: Mulish;
     position: relative;
-    top: 41px;
+    top: 22px;
 }
 
 .footer__contacts-required-fields {
@@ -1773,6 +1774,7 @@ input::placeholder {
     height: 15px;
     position: relative;
     left: 442px;
+    top: -20px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -1788,15 +1790,14 @@ input::placeholder {
     width: 696px;
     height: 22px;
     position: relative;
-    top: 400px;
+    left: 294px;
+    top: 95px;
+    background-color: coral;
 }
 
 .footer__bottom-disclaimer {
     width: 503px;
     height: 15px;
-    bottom: 48px;
-    position: relative;
-    left: 400px;
 }
 
 .footer__bottom-disclaimer-list {
@@ -1824,8 +1825,8 @@ input::placeholder {
 
 .footer__bottom-payment-methods {
     position: relative;
-    left: 1054px;
-    bottom: 63px;
+    left: 560px;
+    top: -15px;
     width: 136px;
     height: 22px;
     background: url(../images/footer/footer__payments-methods.jpg);
