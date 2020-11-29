@@ -33,27 +33,17 @@ input::placeholder {
     height: 60px;
 }
 
-.topnavbar__list-item {
-    display: inline-flex;
+.topnavbar__list {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    position: relative;
+    justify-content: space-between;
+}
+
+.topnavbar__list-item {
     font-family: Mulish;
     font-size: 10px;
     line-height: 13px;
     color: #333333;
-}
-
-.topnavbar__list-item--item-one-distance {
-    left: 98px;
-}
-
-.topnavbar__list-item--item-two-distance {
-    left: 658px;
-}
-
-.topnavbar__list-item--item-three-distance {
-    left: 758px;
 }
 
 .topnavbar__questions-text {
@@ -93,6 +83,17 @@ input::placeholder {
     height: 120px;
 }
 
+.midnavbar__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midnavbar__list-item {
+    margin-top: 35px;
+}
+
 .midnavbar__search-bar {
     width: 350px;
     height: 40px;
@@ -123,12 +124,6 @@ input::placeholder {
     border-radius: 0px 10px 10px 0px;
 }
 
-.midnavbar__list-item {
-    display: inline-flex;
-    flex-direction: row;
-    margin-top: 35px;
-}
-
 .midnavbar__logo {
     width: 177px;
     height: 24px;
@@ -144,15 +139,16 @@ input::placeholder {
 .midnavbar__cart {
     width: 34px;
     height: 33.98px;
-    position: relative;
-    left: 695px;
+    margin-left: 630px;
 }
 
 .midnavbar__list-item-userbox {
     width: 150px;
     height: 40px;
-    position: relative;
-    left: 755px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 57px;
 }
 
 .midnavbar__username {
@@ -169,9 +165,7 @@ input::placeholder {
 .midnavbar__down-arrow {
     width: 24px;
     height: 24px;
-    position: relative;
-    left: 19px;
-    top: 13px;
+    margin-top: 15px;
 }
 
 
@@ -187,61 +181,14 @@ input::placeholder {
 }
 
 .bottomnavbar__list {
-    margin-left: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .bottomnavbar__list-item {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
     margin-top: 31px;
-}
-
-.bottomnavbar__list-item--one {
-    width: 77px;
-    height: 18px;
-}
-
-.bottomnavbar__list-item--two {
-    width: 77px;
-    left: 71px;
-    height: 18px;
-    position: relative;
-}
-
-.bottomnavbar__list-item--three {
-    width: 77px;
-    left: 155px;
-    height: 18px;
-    position: relative;
-}
-
-.bottomnavbar__list-item--four {
-    width: 158px;
-    height: 18px;
-    position: relative;
-    left: 230px;
-}
-
-.bottomnavbar__list-item--five {
-    width: 104px;
-    height: 18px;
-    position: relative;
-    left: 310px;
-}
-
-.bottomnavbar__list-item--six {
-    width: 55px;
-    height: 18px;
-    position: relative;
-    left: 380px;
-}
-
-.bottomnavbar__list-item--seven {
-    width: 84px;
-    height: 18px;
-    position: relative;
-    left: 465px;
+    margin-left: 32px;
 }
 
 .bottomnavbar__link {
@@ -461,7 +408,7 @@ input::placeholder {
 }
 
 .bookingbox__personroom-elem {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -482,41 +429,33 @@ input::placeholder {
 }
 
 .bookingbox__callcenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 18px;
     width: 295px;
     height: 25px;
 }
 
 .bookingbox__callcenter-text {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
     color: #ffffff;
     font-family: Nunito;
     font-weight: 600;
     font-size: 18px;
+    height: 25px;
     line-height: 25px;
 }
 
-.bookingbox__callcenter-text--text-two-dist {
-    margin-left: 100px;
+.bookingbox__callcenter-text-two {
+    position: relative;
+    left: 52px;
 }
 
-.bookingbox__callcenter-text--text-two-dist::before {
+.bookingbox__callcenter-text-two::before {
     content: url(../images/bookingbox/bookingbox__callcenter-phone.svg);
     width: 14px;
     height: 14px;
     margin-right: 8px;
-}
-
-.bookingbox__callcenter-phone {
-    width: 14px;
-    height: 14px;
-    margin-right: -98px;
-    margin-left: 98px;
 }
 
 .bookingbox__button {
@@ -562,18 +501,17 @@ input::placeholder {
 }
 
 .cardsmenu-wrapper__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 92vw;
-    margin-left: 69px;
     margin-top: 67.68px;
+    margin-left: 35px;
     height: 35.32px;
 }
 
 .cardsmenu-wrapper__list-item {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-weight: 700;
-    padding: 0 29px;
+    margin-left: 39px;
 }
 
 .cardsmenu-wrapper__link {
@@ -597,9 +535,9 @@ input::placeholder {
 }
 
 
-/* Package summary section styles */
+/* Package summery section styles */
 
-.packagesummary {
+.packagesummery {
     display: block;
     width: 100%;
     height: 842px;
@@ -607,7 +545,7 @@ input::placeholder {
     margin-right: auto;
 }
 
-.packagesummary__header {
+.packagesummery__header {
     width: 18.75vw;
     height: 30px;
     margin-left: 97px;
@@ -621,34 +559,34 @@ input::placeholder {
     color: #333333;
 }
 
-.packagesummary__card-one {
+.packagesummery__card-one {
     width: 538px;
     height: 200px;
     margin-left: 97px;
     margin-top: 29px;
 }
 
-.packagesummary__card-two {
+.packagesummery__card-two {
     width: 538px;
     height: 200px;
     margin-left: 564px;
     margin-top: -254px;
 }
 
-.packagesummary__card-bluebox {
+.packagesummery__card-bluebox {
     width: 538px;
     height: 50px;
     background: #0a223d;
     border-radius: 4px 4px 0px 0px;
 }
 
-.packagesummary__card-whitebox {
+.packagesummery__card-whitebox {
     background: #ffffff;
     height: 150px;
     padding: 20px;
 }
 
-.packagesummary__card-header {
+.packagesummery__card-header {
     width: 130px;
     height: 18px;
     margin-left: 24px;
@@ -661,26 +599,29 @@ input::placeholder {
     color: #ffffff;
 }
 
-.packagesummary__list {
+.packagesummery__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 220px;
     height: 96px;
     margin-left: 65px;
     margin-top: 10px;
 }
 
-.packagesummary__list-two {
+.packagesummery__list-two {
     width: 220px;
     height: 96px;
     margin-left: 370px;
     margin-top: -110px;
 }
 
-.packagesummary__list-item-text::before {
-    content: url(../images/packagesummary/packagesummary__list-item-icon.jpg);
+.packagesummery__list-item::before {
+    content: url(../images/packagesummery/packagesummery__list-item-icon.jpg);
     margin-right: 20px;
 }
 
-.packagesummary__list-item {
+.packagesummery__list-item {
     width: 220px;
     font-family: Mulish;
     font-size: 12px;
@@ -688,31 +629,16 @@ input::placeholder {
     margin-left: -70px;
 }
 
-.packagesummary__list-item-text {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.packagesummary__list-item-text-deadline {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
+.packagesummery__list-item-text-deadline {
     margin-left: 38px;
 }
 
-.packagesummary__list-item-text-calendar::before {
-    content: url(../images/packagesummary/packagesummary__list-item-icon-calendar.jpg);
+.packagesummery__list-item-text--calendar::before {
+    content: url(../images/packagesummery/packagesummery__list-item-icon-calendar.jpg);
     margin-right: 20px;
 }
 
-.packagesummary__list-item-text-calendar {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.packagesummary__card-three-header {
+.packagesummery__card-three-header {
     height: 18px;
     padding-top: 17px;
     margin-left: 21px;
@@ -725,27 +651,27 @@ input::placeholder {
     width: 200px;
 }
 
-.packagesummary__card-three {
+.packagesummery__card-three {
     width: 90%;
     height: 200px;
     margin-top: 70px;
 }
 
-.packagesummary__card-three-bluebox {
+.packagesummery__card-three-bluebox {
     width: 1110px;
     height: 50px;
     background: #0a223d;
     border-radius: 4px 4px 0px 0px;
 }
 
-.packagesummary__card-three-whitebox {
+.packagesummery__card-three-whitebox {
     background: #ffffff;
     padding: 20px;
     width: 1070px;
     height: 500px;
 }
 
-.packagesummary__line {
+.packagesummery__line {
     width: 1048px;
     height: 0px;
     border: 1px dashed #e0e0e0;
@@ -756,48 +682,48 @@ input::placeholder {
 
 /* Header + list styles = Groups */
 
-.packagesummary__card-three-group-one {
+.packagesummery__card-three-group-one {
     width: 258px;
     height: 239px;
     margin-left: 15px;
 }
 
-.packagesummary__card-three-group-two {
+.packagesummery__card-three-group-two {
     width: 284px;
     height: 238px;
     margin-top: -251px;
     margin-left: 380px;
 }
 
-.packagesummary__card-three-group-three {
+.packagesummery__card-three-group-three {
     width: 284px;
     height: 238px;
     margin-top: -251px;
     margin-left: 760px;
 }
 
-.packagesummary__card-three-group-four {
+.packagesummery__card-three-group-four {
     width: 160px;
     height: 90px;
     margin-left: 15px;
     margin-top: 40px;
 }
 
-.packagesummary__card-three-group-five {
+.packagesummery__card-three-group-five {
     width: 200px;
     height: 90px;
     margin-top: -104px;
     margin-left: 380px;
 }
 
-.packagesummary__card-three-group-six {
+.packagesummery__card-three-group-six {
     width: 284px;
     height: 238px;
     margin-top: -104px;
     margin-left: 760px;
 }
 
-.packagesummary__card-three-list-header {
+.packagesummery__card-three-list-header {
     font-family: Mulish;
     font-style: normal;
     text-align: left;
@@ -809,11 +735,11 @@ input::placeholder {
     color: #ec1f46;
 }
 
-.packagesummary__card-three-list {
+.packagesummery__card-three-list {
     margin-top: 20px;
 }
 
-.packagesummary__card-three-list-item {
+.packagesummery__card-three-list-item {
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -1538,8 +1464,7 @@ input::placeholder {
     margin-right: auto;
     height: 223px;
     background-color: brown;
-    position: relative;
-    top: 91px;
+    padding-top: 91px;
 }
 
 .footer__top-logo {
@@ -1601,6 +1526,9 @@ input::placeholder {
 }
 
 .footer__top-social-network-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 280px;
     position: relative;
     left: 200px;
@@ -1608,10 +1536,9 @@ input::placeholder {
 }
 
 .footer__top-social-network-list-item {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 10px;
+    width: 24px;
+    height: 24px;
+    margin-left: -150px;
 }
 
 
@@ -1622,7 +1549,7 @@ input::placeholder {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 89px;
+    margin-top: 90px;
     height: 317px;
     background-color: yellow;
 }
@@ -1801,15 +1728,14 @@ input::placeholder {
 }
 
 .footer__bottom-disclaimer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 483px;
     height: 15px;
 }
 
 .footer__bottom-disclaimer-list-item {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 10px;
     width: 120px;
     height: 15px;
 }
