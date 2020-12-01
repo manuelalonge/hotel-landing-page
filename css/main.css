@@ -1,8 +1,9 @@
 /* Fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 /* Universal styles */
 
@@ -241,7 +242,7 @@ input::placeholder {
 }
 
 
-/* Hotel name styles */
+/* Hotel name section styles */
 
 .hotelname {
     display: block;
@@ -300,22 +301,16 @@ input::placeholder {
 }
 
 .hotelname__flash-offer-text {
-    display: block;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     padding-top: 3px;
     height: 13px;
+    line-height: 13px;
     font-weight: 600;
     font-size: 10px;
-    line-height: 13px;
 }
 
 .hotelname__user-ratings-text {
-    display: block;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     padding-top: 5px;
     height: 13px;
     font-size: 8px;
@@ -506,7 +501,6 @@ input::placeholder {
 /* Cards menu styles */
 
 .cardsmenu-wrapper {
-    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -515,15 +509,15 @@ input::placeholder {
 .cardsmenu-wrapper__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 92vw;
+    justify-content: space-around;
+    width: 1150px;
     margin-top: 67.68px;
-    margin-left: 35px;
+    margin-left: 70px;
     height: 35.32px;
 }
 
 .cardsmenu-wrapper__list-item {
-    margin-left: 39px;
+    text-align: center;
 }
 
 .cardsmenu-wrapper__link {
