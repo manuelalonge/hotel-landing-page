@@ -132,14 +132,13 @@ input::placeholder {
     left: 285px;
     background-color: #ec1f46;
     border: none;
-    width: 5.08vw;
+    width: 65px;
     height: 42px;
     border-radius: 0px 10px 10px 0px;
 }
 
 .midnavbar__logo {
-    width: 177px;
-    height: 24px;
+    width: 190px;
     margin-left: 97px;
 }
 
@@ -178,7 +177,7 @@ input::placeholder {
 .midnavbar__down-arrow {
     width: 24px;
     height: 24px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 
