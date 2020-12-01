@@ -27,3 +27,4 @@ https://hotel-landing-page-manuelalonge.netlify.app/
 
 ## Thumbnail
 
+![](images/github/thumbnail.jpg)
