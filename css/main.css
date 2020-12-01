@@ -46,6 +46,19 @@ input::placeholder {
     color: #333333;
 }
 
+.topnavbar__list-item--item-one {
+    margin-left: 97px;
+}
+
+.topnavbar__list-item--item-two {
+    margin-left: 380px;
+}
+
+.topnavbar__list-item--item-three {
+    position: relative;
+    right: 60px;
+}
+
 .topnavbar__questions-text {
     width: 243px;
     height: 13px;
@@ -606,36 +619,59 @@ input::placeholder {
     width: 220px;
     height: 96px;
     margin-left: 65px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-.packagesummery__list-two {
-    width: 220px;
-    height: 96px;
-    margin-left: 370px;
-    margin-top: -110px;
+.packagesummery__list--list2 {
+    position: relative;
+    left: 280px;
+    top: -145px;
+}
+
+.packagesummery__list--list3 {
+    position: relative;
+    top: -45px;
+}
+
+.packagesummery__list--list-card-three {
+    position: relative;
+    top: 85px;
 }
 
 .packagesummery__list-item::before {
     content: url(../images/packagesummery/packagesummery__list-item-icon.jpg);
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .packagesummery__list-item {
-    width: 220px;
+    width: 250px;
+    height: 15px;
     font-family: Mulish;
     font-size: 12px;
     line-height: 15px;
     margin-left: -70px;
+    margin-bottom: 31px;
 }
 
-.packagesummery__list-item-text-deadline {
-    margin-left: 38px;
+.packagesummery__text {
+    margin-left: 40px;
+    margin-top: -35px;
+}
+
+.packagesummery__text-calendar {
+    margin-left: 40px;
+    margin-top: -25px;
 }
 
 .packagesummery__list-item-text--calendar::before {
     content: url(../images/packagesummery/packagesummery__list-item-icon-calendar.jpg);
     margin-right: 20px;
+}
+
+.packagesummery__list-item-text--calendar {
+    position: relative;
+    left: 290px;
+    top: -170px;
 }
 
 .packagesummery__card-three-header {
@@ -649,6 +685,18 @@ input::placeholder {
     line-height: 18px;
     color: #ffffff;
     width: 200px;
+}
+
+.packagesummery__list-header {
+    font-family: Mulish;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+    width: 240px;
+    height: 16px;
+    line-height: 16px;
+    color: #ec1f46;
 }
 
 .packagesummery__card-three {
@@ -721,31 +769,6 @@ input::placeholder {
     height: 238px;
     margin-top: -104px;
     margin-left: 760px;
-}
-
-.packagesummery__card-three-list-header {
-    font-family: Mulish;
-    font-style: normal;
-    text-align: left;
-    font-weight: 600;
-    font-size: 13px;
-    width: 240px;
-    height: 16px;
-    line-height: 16px;
-    color: #ec1f46;
-}
-
-.packagesummery__card-three-list {
-    margin-top: 20px;
-}
-
-.packagesummery__card-three-list-item {
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #333333;
 }
 
 
