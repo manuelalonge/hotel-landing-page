@@ -7,6 +7,10 @@
 
 /* Universal styles */
 
+html {
+    background: #f5fafe;
+}
+
 body {
     width: 1280px;
     margin: 0 auto;
@@ -27,11 +31,10 @@ input::placeholder {
 /* Top navbar styles */
 
 .topnavbar {
-    display: block;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
+    width: 100%;
     height: 60px;
 }
 
@@ -90,12 +93,11 @@ input::placeholder {
 /* Mid navbar styles */
 
 .midnavbar {
-    background-color: white;
-    display: block;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     height: 120px;
+    background-color: white;
 }
 
 .midnavbar__list {
@@ -110,38 +112,38 @@ input::placeholder {
 }
 
 .midnavbar__search-bar {
-    width: 350px;
-    height: 40px;
     position: relative;
     left: 400px;
-    top: -57px;
+    top: -43px;
+    width: 350px;
+    height: 40px;
 }
 
 .midnavbar__search-bar-input-field {
-    background-color: #f5fafe;
-    border: white;
     width: 285px;
     height: 39.88px;
     font-family: Mulish;
     font-size: 12px;
     font-weight: bold;
     line-height: 15.06px;
+    background-color: #f5fafe;
+    border: white;
 }
 
 .midnavbar__search-bar-button {
     position: relative;
     top: -41.5px;
     left: 285px;
-    background-color: #ec1f46;
-    border: none;
     width: 65px;
     height: 42px;
+    background-color: #ec1f46;
+    border: none;
     border-radius: 0px 10px 10px 0px;
 }
 
 .midnavbar__logo {
-    width: 190px;
     margin-left: 97px;
+    width: 190px;
 }
 
 .midnavbar__search-icon {
@@ -151,47 +153,47 @@ input::placeholder {
 }
 
 .midnavbar__cart {
+    margin-left: 630px;
     width: 34px;
     height: 33.98px;
-    margin-left: 630px;
 }
 
 .midnavbar__list-item-userbox {
-    width: 150px;
-    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: 57px;
+    width: 150px;
+    height: 40px;
 }
 
 .midnavbar__username {
-    font-family: Mulish;
     width: 48.9px;
+    font-family: Mulish;
     line-height: 18px;
 }
 
 .midnavbar__user-profile-photo {
-    height: 40px;
     margin-right: 18px;
+    height: 40px;
 }
 
 .midnavbar__down-arrow {
+    margin-top: 12px;
     width: 24px;
     height: 24px;
-    margin-top: 12px;
 }
 
 
 /* Bottom navbar styles */
 
 .bottomnavbar {
-    background-color: #0a223d;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -15px;
+    width: 100%;
     height: 80px;
+    background-color: #0a223d;
 }
 
 .bottomnavbar__list {
@@ -207,9 +209,9 @@ input::placeholder {
 
 .bottomnavbar__link {
     text-decoration: none;
-    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    color: #ffffff;
     font-size: 14px;
     line-height: 18px;
     font-weight: bold;
@@ -221,10 +223,10 @@ input::placeholder {
 /* Bread crumb styles */
 
 .breadcrumb__list {
-    width: 15.62vw;
-    height: 50px;
     padding: 10px 16px;
     margin-left: 80px;
+    width: 15.62vw;
+    height: 50px;
     background: #f5fafe;
 }
 
@@ -246,10 +248,9 @@ input::placeholder {
 /* Hotel name section styles */
 
 .hotelname {
-    display: block;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     height: 100px;
     background: #f5fafe;
 }
@@ -284,47 +285,47 @@ input::placeholder {
 }
 
 .hotelname__flash-offer {
+    margin-left: 370px;
+    margin-top: -65px;
     width: 70px;
     height: 20px;
     background: #ec1f46;
     border-radius: 3px;
-    margin-left: 370px;
-    margin-top: -65px;
 }
 
 .hotelname__ratings {
+    margin-left: 1136px;
+    margin-top: -54.5px;
     width: 65px;
     height: 45px;
     background: #ec1f46;
     border-radius: 3px;
-    margin-left: 1136px;
-    margin-top: -54.5px;
 }
 
 .hotelname__flash-offer-text {
-    text-align: center;
     padding-top: 3px;
     height: 13px;
     line-height: 13px;
+    text-align: center;
     font-weight: 600;
     font-size: 10px;
 }
 
 .hotelname__user-ratings-text {
-    text-align: center;
     padding-top: 5px;
+    text-align: center;
     height: 13px;
     font-size: 8px;
     line-height: 13px;
 }
 
 .hotelname__ratings-number {
-    width: 31px;
-    height: 18px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -25px;
+    width: 31px;
+    height: 18px;
     line-height: 18px;
 }
 
@@ -352,8 +353,7 @@ input::placeholder {
 .main {
     margin-left: auto;
     margin-right: auto;
-    height: 1600px;
-    background-color: orchid;
+    height: 1650px;
 }
 
 
@@ -369,14 +369,13 @@ input::placeholder {
 }
 
 .bookingbox__price {
-    width: 50px;
-    height: 59px;
     padding-top: 29px;
     margin-left: 29px;
+    width: 50px;
+    height: 59px;
 }
 
 .bookingbox__pricetext-one {
-    display: grid;
     color: #ffffff;
     font-family: Nunito;
     width: 63px;
@@ -386,7 +385,6 @@ input::placeholder {
 }
 
 .bookingbox__pricetext-two {
-    display: grid;
     color: #ffffff;
     font-family: Nunito;
     font-weight: 800;
@@ -397,7 +395,6 @@ input::placeholder {
 }
 
 .bookingbox__pricetext-three {
-    display: grid;
     color: #ffffff;
     font-family: Nunito;
     width: 86px;
@@ -407,9 +404,10 @@ input::placeholder {
 }
 
 .bookingbox__personroom {
+    position: relative;
     margin-left: 241px;
     margin-right: 29px;
-    margin-top: -70px;
+    margin-top: -58px;
     width: 80px;
     height: 40px;
 }
@@ -459,19 +457,20 @@ input::placeholder {
 }
 
 .bookingbox__callcenter-text-two::before {
+    margin-right: 8px;
     content: url(../images/bookingbox/bookingbox__callcenter-phone.svg);
     width: 14px;
     height: 14px;
-    margin-right: 8px;
 }
 
 .bookingbox__button {
+    position: relative;
     display: block;
-    width: 295px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
     margin-bottom: 26px;
+    width: 295px;
     height: 40px;
     background: #ec1f46;
     border: none;
@@ -487,32 +486,29 @@ input::placeholder {
 /* Map styles */
 
 .map-wrapper {
-    border-radius: 8px;
     margin-left: 850px;
     margin-top: 25px;
-}
-
-.map-wrapper__img {
+    border-radius: 8px;
     width: 350px;
     height: 213px;
+    background: url(../images/map/map.jpg);
 }
 
 
 /* Cards menu styles */
 
 .cardsmenu-wrapper {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 67.68px;
 }
 
 .cardsmenu-wrapper__list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1150px;
-    margin-top: 67.68px;
     margin-left: 70px;
+    width: 1150px;
     height: 35.32px;
 }
 
@@ -535,9 +531,9 @@ input::placeholder {
 }
 
 .cardsmenu-wrapper__border {
+    margin-left: 97px;
     height: 4px;
     width: 118px;
-    margin-left: 97px;
 }
 
 
@@ -546,15 +542,13 @@ input::placeholder {
 .packagesummery {
     width: 100%;
     height: 842px;
-    background-color: darkseagreen;
     border: 1px solid white;
 }
 
 .packagesummery__header {
+    margin-left: 97px;
     width: 240px;
     height: 30px;
-    margin-left: 97px;
-    margin-top: 40px;
     font-family: Mulish;
     font-style: normal;
     font-weight: 700;
@@ -565,28 +559,44 @@ input::placeholder {
 }
 
 .packagesummery__card {
+    position: relative;
     width: 538px;
     margin-left: 97px;
-    margin-top: 40px;
+    margin-top: 29px;
+}
+
+.packagesummery__card--card-two {
+    left: 444px;
+    top: -207px;
+}
+
+.packagesummery__card--card-three {
+    left: -658px;
+    width: 1110px;
+    height: 500px;
 }
 
 .packagesummery__card-bluebox {
-    width: 538px;
     height: 50px;
     background: #0a223d;
     border-radius: 4px 4px 0px 0px;
 }
 
 .packagesummery__card-whitebox {
-    background: #ffffff;
     padding: 20px;
+    background: #ffffff;
+    height: 100px;
+}
+
+.packagesummery__card-whitebox--card-three {
+    height: 450px;
 }
 
 .packagesummery__card-header {
-    width: 130px;
-    height: 18px;
     margin-left: 24px;
     padding-top: 16px;
+    width: 200px;
+    height: 18px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -600,7 +610,24 @@ input::placeholder {
     justify-content: space-around;
 }
 
+.packagesummery__list-column {
+    margin-left: -54px;
+}
+
+.packagesummery__list-header {
+    margin-bottom: 21px;
+    width: 250px;
+    height: 16px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ec1f46;
+}
+
 .packagesummery__list-item {
+    margin-bottom: 18px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -613,6 +640,23 @@ input::placeholder {
     content: url(../images/packagesummery/packagesummery__list-item-icon.jpg);
 }
 
+.packagesummery__list-item--calendar::before {
+    content: url(../images/packagesummery/packagesummery__list-item-icon-calendar.jpg);
+}
+
+.packagesummery__list-item-text {
+    margin-top: -18px;
+    margin-left: 40px;
+}
+
+.packagesummery__break-line {
+    width: 1048px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dashed #e0e0e0;
+}
+
 
 /* Other Packages */
 
@@ -622,7 +666,6 @@ input::placeholder {
     margin-right: auto;
     width: 100%;
     height: 1250px;
-    background-color: darksalmon;
     border: 1px solid white;
 }
 
@@ -642,13 +685,12 @@ input::placeholder {
     color: #333333;
 }
 
-.other-packages__cards {
-    width: 1110px;
-    height: 1028px;
+.other-packages__cards-wrapper {
     margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
-    background-color: palegoldenrod;
+    width: 1110px;
+    height: 1028px;
 }
 
 .other-packages__trip-advisor-card-one {
@@ -662,30 +704,19 @@ input::placeholder {
 .other-packages__trip-advisor-card-two {
     position: relative;
     margin-left: 760px;
-    top: -480px;
+    top: -485px;
     width: 350px;
     height: 500px;
 }
 
-.other-packages__trip-advisor-card-three {
-    position: relative;
-    top: -455px;
-    width: 350px;
-    height: 500px;
+.other-packages__trip-advisor-bottom-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
-.other-packages__trip-advisor-card-four {
+.other-packages__trip-advisor-bottom-card {
     position: relative;
-    top: -958px;
-    margin-left: 380px;
-    width: 350px;
-    height: 500px;
-}
-
-.other-packages__trip-advisor-card-five {
-    position: relative;
-    top: -1462px;
-    margin-left: 760px;
+    top: -463px;
     width: 350px;
     height: 500px;
 }
@@ -697,12 +728,12 @@ input::placeholder {
 }
 
 .other-packages__card-big-info-box {
+    margin-top: -500px;
+    margin-left: 366px;
     width: 364px;
     height: 500px;
     background: #0A223D;
     border-radius: 0px 8px 8px 0px;
-    margin-top: -500px;
-    margin-left: 366px;
 }
 
 .other-packages__stars {
@@ -711,9 +742,9 @@ input::placeholder {
 }
 
 .other-packages__card-big-info-box-header {
+    margin-left: 55px;
     width: 149px;
     height: 23px;
-    margin-left: 55px;
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -723,10 +754,10 @@ input::placeholder {
 }
 
 .other-packages__card-big-info-box-text {
-    width: 299px;
-    height: 165px;
     margin-left: 55px;
     margin-top: 20px;
+    width: 299px;
+    height: 165px;
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
@@ -737,11 +768,11 @@ input::placeholder {
 }
 
 .other-packages__card-big-personroom {
-    width: 203px;
-    height: 67px;
     position: relative;
     left: 55px;
     top: 20px;
+    width: 203px;
+    height: 67px;
 }
 
 .other-packages__personroom-elem {
@@ -784,7 +815,6 @@ input::placeholder {
 .other-packages__personroom-home-icon {
     width: 18px;
     height: 18px;
-    margin-top: 18px;
 }
 
 .other-packages__card-big-flash-offer-box {
@@ -896,11 +926,9 @@ input::placeholder {
 }
 
 .other-packages__card-small-flash-offer-text {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 4px;
-    width: 42px;
+    width: 48px;
     height: 10px;
     font-family: Mulish;
     font-style: normal;
@@ -908,8 +936,6 @@ input::placeholder {
     font-size: 8px;
     line-height: 10px;
     color: #FFFFFF;
-    margin-left: 10px;
-    margin-top: 4px;
 }
 
 .other-packages__card-small-info-box {
@@ -970,7 +996,6 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 550px;
-    background-color: palegreen;
 }
 
 .guest-review__header {
@@ -1106,7 +1131,6 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 260px;
-    background-color: darkcyan;
 }
 
 .newsletter__background {
@@ -1190,7 +1214,6 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
-    background-color: palevioletred;
 }
 
 .other-activities__header {
@@ -1306,7 +1329,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 900px;
+    height: 1020px;
     background: #0A223D;
 }
 
@@ -1319,7 +1342,6 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     height: 223px;
-    background-color: brown;
     padding-top: 91px;
 }
 
@@ -1407,7 +1429,6 @@ input::placeholder {
     margin-right: auto;
     margin-top: 90px;
     height: 317px;
-    background-color: yellow;
 }
 
 .footer__contacts-details-wrapper {
@@ -1574,8 +1595,7 @@ input::placeholder {
     height: 22px;
     position: relative;
     left: 294px;
-    top: 95px;
-    background-color: coral;
+    top: 225px;
 }
 
 .footer__bottom-disclaimer {
